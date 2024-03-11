@@ -1,0 +1,1233 @@
+[
+    {
+        "index": "barbarian",
+        "name": "Barbarian",
+        "desc": [
+            ""
+        ],
+        "hit_points": {
+            "hit_dice": "1d12",
+            "hit_points_first_level":  12,
+            "hit_points_higher_levels": {
+                "roll": "1d12",
+                "round": 7
+            }
+        },
+        "proficiencies": {
+            "armor": [
+                "light",
+                "medium",
+                "shields"
+            ],
+            "weapons": [
+                "simple",
+                "martial"
+            ],
+            "saving_throws": [
+                "strength",
+                "constitution"
+            ],
+            "skills": {
+                "choose": {
+                    "options": [
+                    "animal_handling",
+                    "athletics",
+                    "intimidation",
+                    "nature",
+                    "perception",
+                    "survival"
+                    ],
+                    "count": 2
+                }
+            }
+        },
+        "equipment": {
+            "starting_equipment": {
+                "options": 2,
+                "option_1": {
+                    "choose": {
+                        "options": [
+                            "one greataxe",
+                            "any martial melee weapon",
+                        ],
+                        "count": 1
+                    }
+                },
+                "option_2": {
+                    "choose": {
+                        "options": [
+                            "two handaxes",
+                            "any simple weapon"
+                        ],
+                        "count": 1
+                    }
+                },
+                "given": [
+                    "an explorer's pack",
+                    "four javelins"
+                ],
+                "bg_equipment_allowed": true
+            }
+        },
+        "features_at_class_level": {
+            "1": [ "rage", "proficiency_bonus", "unarmored_defense" ],
+            "2": [ "reckless_attack", "danger_sense" ],
+            "3": [ "subclass_selection" ],
+            "4": [ "ability_score_improvement" ],
+            "5": [ "extra_attack", "fast_movement" ],
+            "7": [ "feral_instinct" ],
+            "8": [ "ability_score_improvement" ],
+            "9": [ "brutal_critical" ],
+            "11": [ "relentless_rage" ],
+            "12": [ "ability_score_improvement" ],
+            "13": [ "brutal_critical" ],
+            "15": [ "persistent_rage" ],
+            "16": [ "ability_score_improvement" ],
+            "17": [ "brutal_critical" ],
+            "18": [ "indomitable_might" ],
+            "19": [ "ability_score_improvement" ],
+            "20": [ "primal_champion" ]
+        },
+        "subclasses": {
+            "path_of_the_berserker": {
+                "name": "Path of the Berserker",
+                "desc": [
+                    "For some barbarians, rage is a means to an end—that end being violence. The Path of the Beserker is a path of imtra,,e;ed fury, slick with blood. As you enter the berserker's rage, you thrill in the chaos of battle, heedless of your own health or well-being."
+                ],
+                "features_at_class_level": {
+                    "3": [ "frenzy" ],
+                    "6": [ "mindless_rage" ],
+                    "10": [ "intimidating_presence" ],
+                    "14": [ "retaliation" ]
+                }
+            }
+        }
+    },
+    {
+        "index": "bard",
+        "name": "Bard",
+        "desc": [
+            ""
+        ],
+        "hit_points": {
+            "hit_dice": "1d8",
+            "hit_points_first_level": 8,
+            "hit_points_higher_levels": {
+                "roll": "1d8",
+                "round": 5
+            }
+        },
+        "proficiencies": {
+            "armor": [
+                "light"
+            ],
+            "weapons": [
+                "simple",
+                "hand_crossbows",
+                "longswords",
+                "rapiers",
+                "shortswords"
+            ],
+            "tools": {
+                "option_count": 3,
+                "options": [
+                    "bagpipes",
+                    "drum",
+                    "dulcimer",
+                    "flute",
+                    "lyre",
+                    "horn",
+                    "pan_flute",
+                    "shawm",
+                    "viol"
+                ]
+            },
+            "saving_throws": [
+                "dexterity",
+                "charisma"
+            ],
+            "skills": {
+                "choose": {
+                    "options": [
+                    "acrobatics",
+                    "animal_handlind",
+                    "arcana",
+                    "athletics",
+                    "deception",
+                    "history",
+                    "insight",
+                    "medicine",
+                    "nature",
+                    "perception",
+                    "performance",
+                    "persuasion",
+                    "religion",
+                    "sleight_of_hand",
+                    "stealth",
+                    "survival"
+                    ],
+                    "count": 3
+                }
+            }
+        },
+        "equipment": {
+            "starting_equipment": {
+                "options": 3,
+                "option_1": {
+                    "choose": {
+                        "options": [
+                            "a rapier",
+                            "a longsword",
+                            "any simple weapon"
+                        ],
+                        "count": 1
+                    }
+                },
+                "option_2": {
+                    "choose": {
+                        "options": [
+                            "a diplomat's pack",
+                            "an entertainer's pack"
+                        ],
+                        "count": 1
+                    }
+                },
+                "option3": {
+                    "choose": {
+                        "options": [
+                            "a lute",
+                            "any other musical instrument"
+                        ],
+                        "count": 1
+                    }
+                },
+                "given": [
+                    "leather armor",
+                    "a dagger"
+                ],
+                "bg_equipment_allowed": true
+            }
+        },
+        "features_at_class_level": {
+            "1": [ "proficiency_bonus", "spellcasting", "bardic_inspiration" ],
+            "2": [ "jack_of_all_trades", "song_of_rest" ],
+            "3": [ "subclass_selection", "expertise" ],
+            "4": [ "ability_score_improvement" ],
+            "5": [ "font_of_inspiration" ],
+            "6": [ "countercharm" ],
+            "8": [ "ability_score_improvement" ],
+            "9": [ "song_of_rest" ],
+            "10": [ "magical_secrets", "expertise" ],
+            "12": [ "ability_score_improvement" ],
+            "13": [ "song_of_rest" ],
+            "14": [ "magical_secrets" ],
+            "16": [ "ability_score_improvement" ],
+            "17": [ "song_of_rest" ],
+            "18": [ "magical_secrets" ],
+            "19": [ "ability_score_improvement" ],
+            "20": [ "superior_inspiration" ]
+        },
+        "subclasses": {
+            "college_of_lore": {
+                "name": "College of Lore",
+                "desc": [
+                    "Bards of the College of Lore know something about most things, collecting bits of knowledge from sources as diverse as scholarly tomes and peasant tales. Whether singing folk ballads in taverns or elaborate compositions in royal courts, these bards use their gifts to hold audiences spellbound. When the applause dies down, the audience members might find themselves questioning everything they held to be true, from their faith in the priesthood of the local temple to their loyalty to the king. The loyalty of these bards lies in the pursuit of beauty and truth, not in fealty to a monarch or following the tenets of a deity. A noble who keeps such a bard as a herald or advisor knows that the bard would rather be honest than politic. The college’s members gather in libraries and sometimes in actual colleges, complete with classrooms and dormitories, to share their lore with one another. They also meet at festivals or affairs of state, where they can expose corruption, unravel lies, and poke fun at self-­‐‑important figures of authority."
+                ],
+                "features_at_class_level": {
+                    "3": [ "lore_bonus_proficiencies", "cutting_words" ],
+                    "6": [ "additional_magical_secrets" ],
+                    "14": [ "peerless_skill" ]
+                }
+            }
+        }
+
+    },
+    {
+        "index": "cleric",
+        "name": "Cleric",
+        "desc": [
+            ""
+        ],
+        "hit_points": {
+            "hit_dice": "1d8",
+            "hit_points_first_level": 8,
+            "hit_points_higher_levels": {
+                "roll": "1d8",
+                "round": 5
+            }
+        },
+        "proficiencies": {
+            "armor": [
+                "light",
+                "medium",
+                "shields"
+            ],
+            "weapons": [
+                "simple weapons"
+            ],
+            "saving_throws": [
+                "wisdom",
+                "charisma"
+            ],
+            "skills": {
+                "choose": {
+                    "options": [
+                    "history",
+                    "insight",
+                    "medicine",
+                    "persuasion",
+                    "religion"
+                    ],
+                    "count": 2
+                }
+            }
+        },
+        "equipment": {
+            "starting_equipment": {
+                "options": 4,
+                "option_1": {
+                    "choose": {
+                        "options": [
+                            "a mace",
+                            "a warhammer"
+                        ],
+                        "count": 1
+                    }
+                },
+                "option_2": {
+                    "choose": {
+                        "options": [
+                            "scale mail",
+                            "leather armor",
+                            "chain mail"
+                        ],
+                        "count": 1
+                    }
+                },
+                "option_3": {
+                    "choose": {
+                        "options": [
+                            "a light crossbow and 20 bolts",
+                            "any simple weapon"
+                        ],
+                        "count": 1
+                    }
+                },
+                "option_4": {
+                    "choose": {
+                        "options": [
+                            "a priest's pack",
+                            "an explorer's pack"
+                        ],
+                        "count": 1
+                    }
+                },
+                "given": [
+                    "a shield",
+                    "a holy symbol"
+                ],
+                "bg_equipment_allowed": true
+            }
+        },
+        "features_at_class_level": {
+            "1": [ "spellcasting", "divine_domain" ],
+            "2": [ "channel_divinity", "divine_domain" ],
+            "3": [ "subclass_selection" ],
+            "4": [ "ability_score_improvement" ],
+            "5": [ "destroy_undead" ],
+            "6": [ "channel_divinity", "divine_domain" ],
+            "8": [ "ability_score_improvement", "destroy_undead", "divine_domain" ],
+            "9": [ "" ],
+            "10": [ "" ],
+            "11": [ "" ],
+            "12": [ "" ],
+            "13": [ "" ],
+            "14": [ "" ],
+            "15": [ "" ],
+            "16": [ "" ],
+            "17": [ "" ],
+            "18": [ "" ],
+            "19": [ "" ],
+            "20": [ "" ]
+        },
+        "subclasses": {
+            "": {
+                "name": "",
+                "desc": [
+                    ""
+                ],
+                "features_at_class_level": {
+                    "3": [ "" ],
+                    "6": [ "" ],
+                    "10": [ "" ],
+                    "14": [ "" ]
+                }
+            }
+        }
+
+    },
+    {
+        "index": "",
+        "name": "",
+        "desc": [
+            ""
+        ],
+        "hit_points": {
+            "hit_dice": "",
+            "hit_points_first_level": [ "" ],
+            "hit_points_higher_levels": {
+                "roll": [ "" ],
+                "round": [ "" ]
+            }
+        },
+        "proficiencies": {
+            "armor": [
+                ""
+            ],
+            "weapons": [
+                ""
+            ],
+            "saving_throws": [
+                ""
+            ],
+            "skills": {
+                "choose": {
+                    "options": [
+                    ""
+                    ],
+                    "count": 2
+                }
+            }
+        },
+        "equipment": {
+            "starting_equipment": {
+                "options": 2,
+                "option_1": {
+                    "choose": {
+                        "options": [
+                            ""
+                        ],
+                        "count": 1
+                    }
+                },
+                "option_2": {
+                    "choose": {
+                        "options": [
+                            ""
+                        ],
+                        "count": 1
+                    }
+                },
+                "given": [
+                    ""
+                ],
+                "bg_equipment_allowed": true
+            }
+        },
+        "features_at_class_level": {
+            "1": [ "" ],
+            "2": [ "" ],
+            "3": [ "" ],
+            "4": [ "" ],
+            "5": [ "" ],
+            "6": [ "" ],
+            "7": [ "" ],
+            "8": [ "" ],
+            "9": [ "" ],
+            "10": [ "" ],
+            "11": [ "" ],
+            "12": [ "" ],
+            "13": [ "" ],
+            "14": [ "" ],
+            "15": [ "" ],
+            "16": [ "" ],
+            "17": [ "" ],
+            "18": [ "" ],
+            "19": [ "" ],
+            "20": [ "" ]
+        },
+        "subclasses": {
+            "": {
+                "name": "",
+                "desc": [
+                    ""
+                ],
+                "features_at_class_level": {
+                    "3": [ "" ],
+                    "6": [ "" ],
+                    "10": [ "" ],
+                    "14": [ "" ]
+                }
+            }
+        }
+
+    },
+    {
+        "index": "",
+        "name": "",
+        "desc": [
+            ""
+        ],
+        "hit_points": {
+            "hit_dice": "",
+            "hit_points_first_level": [ "" ],
+            "hit_points_higher_levels": {
+                "roll": [ "" ],
+                "round": [ "" ]
+            }
+        },
+        "proficiencies": {
+            "armor": [
+                ""
+            ],
+            "weapons": [
+                ""
+            ],
+            "saving_throws": [
+                ""
+            ],
+            "skills": {
+                "choose": {
+                    "options": [
+                    ""
+                    ],
+                    "count": 2
+                }
+            }
+        },
+        "equipment": {
+            "starting_equipment": {
+                "options": 2,
+                "option_1": {
+                    "choose": {
+                        "options": [
+                            ""
+                        ],
+                        "count": 1
+                    }
+                },
+                "option_2": {
+                    "choose": {
+                        "options": [
+                            ""
+                        ],
+                        "count": 1
+                    }
+                },
+                "given": [
+                    ""
+                ],
+                "bg_equipment_allowed": true
+            }
+        },
+        "features_at_class_level": {
+            "1": [ "" ],
+            "2": [ "" ],
+            "3": [ "" ],
+            "4": [ "" ],
+            "5": [ "" ],
+            "6": [ "" ],
+            "7": [ "" ],
+            "8": [ "" ],
+            "9": [ "" ],
+            "10": [ "" ],
+            "11": [ "" ],
+            "12": [ "" ],
+            "13": [ "" ],
+            "14": [ "" ],
+            "15": [ "" ],
+            "16": [ "" ],
+            "17": [ "" ],
+            "18": [ "" ],
+            "19": [ "" ],
+            "20": [ "" ]
+        },
+        "subclasses": {
+            "": {
+                "name": "",
+                "desc": [
+                    ""
+                ],
+                "features_at_class_level": {
+                    "3": [ "" ],
+                    "6": [ "" ],
+                    "10": [ "" ],
+                    "14": [ "" ]
+                }
+            }
+        }
+
+    },
+    {
+        "index": "",
+        "name": "",
+        "desc": [
+            ""
+        ],
+        "hit_points": {
+            "hit_dice": "",
+            "hit_points_first_level": [ "" ],
+            "hit_points_higher_levels": {
+                "roll": [ "" ],
+                "round": [ "" ]
+            }
+        },
+        "proficiencies": {
+            "armor": [
+                ""
+            ],
+            "weapons": [
+                ""
+            ],
+            "saving_throws": [
+                ""
+            ],
+            "skills": {
+                "choose": {
+                    "options": [
+                    ""
+                    ],
+                    "count": 2
+                }
+            }
+        },
+        "equipment": {
+            "starting_equipment": {
+                "options": 2,
+                "option_1": {
+                    "choose": {
+                        "options": [
+                            ""
+                        ],
+                        "count": 1
+                    }
+                },
+                "option_2": {
+                    "choose": {
+                        "options": [
+                            ""
+                        ],
+                        "count": 1
+                    }
+                },
+                "given": [
+                    ""
+                ],
+                "bg_equipment_allowed": true
+            }
+        },
+        "features_at_class_level": {
+            "1": [ "" ],
+            "2": [ "" ],
+            "3": [ "" ],
+            "4": [ "" ],
+            "5": [ "" ],
+            "6": [ "" ],
+            "7": [ "" ],
+            "8": [ "" ],
+            "9": [ "" ],
+            "10": [ "" ],
+            "11": [ "" ],
+            "12": [ "" ],
+            "13": [ "" ],
+            "14": [ "" ],
+            "15": [ "" ],
+            "16": [ "" ],
+            "17": [ "" ],
+            "18": [ "" ],
+            "19": [ "" ],
+            "20": [ "" ]
+        },
+        "subclasses": {
+            "": {
+                "name": "",
+                "desc": [
+                    ""
+                ],
+                "features_at_class_level": {
+                    "3": [ "" ],
+                    "6": [ "" ],
+                    "10": [ "" ],
+                    "14": [ "" ]
+                }
+            }
+        }
+
+    },
+    {
+        "index": "",
+        "name": "",
+        "desc": [
+            ""
+        ],
+        "hit_points": {
+            "hit_dice": "",
+            "hit_points_first_level": [ "" ],
+            "hit_points_higher_levels": {
+                "roll": [ "" ],
+                "round": [ "" ]
+            }
+        },
+        "proficiencies": {
+            "armor": [
+                ""
+            ],
+            "weapons": [
+                ""
+            ],
+            "saving_throws": [
+                ""
+            ],
+            "skills": {
+                "choose": {
+                    "options": [
+                    ""
+                    ],
+                    "count": 2
+                }
+            }
+        },
+        "equipment": {
+            "starting_equipment": {
+                "options": 2,
+                "option_1": {
+                    "choose": {
+                        "options": [
+                            ""
+                        ],
+                        "count": 1
+                    }
+                },
+                "option_2": {
+                    "choose": {
+                        "options": [
+                            ""
+                        ],
+                        "count": 1
+                    }
+                },
+                "given": [
+                    ""
+                ],
+                "bg_equipment_allowed": true
+            }
+        },
+        "features_at_class_level": {
+            "1": [ "" ],
+            "2": [ "" ],
+            "3": [ "" ],
+            "4": [ "" ],
+            "5": [ "" ],
+            "6": [ "" ],
+            "7": [ "" ],
+            "8": [ "" ],
+            "9": [ "" ],
+            "10": [ "" ],
+            "11": [ "" ],
+            "12": [ "" ],
+            "13": [ "" ],
+            "14": [ "" ],
+            "15": [ "" ],
+            "16": [ "" ],
+            "17": [ "" ],
+            "18": [ "" ],
+            "19": [ "" ],
+            "20": [ "" ]
+        },
+        "subclasses": {
+            "": {
+                "name": "",
+                "desc": [
+                    ""
+                ],
+                "features_at_class_level": {
+                    "3": [ "" ],
+                    "6": [ "" ],
+                    "10": [ "" ],
+                    "14": [ "" ]
+                }
+            }
+        }
+
+    },
+    {
+        "index": "",
+        "name": "",
+        "desc": [
+            ""
+        ],
+        "hit_points": {
+            "hit_dice": "",
+            "hit_points_first_level": [ "" ],
+            "hit_points_higher_levels": {
+                "roll": [ "" ],
+                "round": [ "" ]
+            }
+        },
+        "proficiencies": {
+            "armor": [
+                ""
+            ],
+            "weapons": [
+                ""
+            ],
+            "saving_throws": [
+                ""
+            ],
+            "skills": {
+                "choose": {
+                    "options": [
+                    ""
+                    ],
+                    "count": 2
+                }
+            }
+        },
+        "equipment": {
+            "starting_equipment": {
+                "options": 2,
+                "option_1": {
+                    "choose": {
+                        "options": [
+                            ""
+                        ],
+                        "count": 1
+                    }
+                },
+                "option_2": {
+                    "choose": {
+                        "options": [
+                            ""
+                        ],
+                        "count": 1
+                    }
+                },
+                "given": [
+                    ""
+                ],
+                "bg_equipment_allowed": true
+            }
+        },
+        "features_at_class_level": {
+            "1": [ "" ],
+            "2": [ "" ],
+            "3": [ "" ],
+            "4": [ "" ],
+            "5": [ "" ],
+            "6": [ "" ],
+            "7": [ "" ],
+            "8": [ "" ],
+            "9": [ "" ],
+            "10": [ "" ],
+            "11": [ "" ],
+            "12": [ "" ],
+            "13": [ "" ],
+            "14": [ "" ],
+            "15": [ "" ],
+            "16": [ "" ],
+            "17": [ "" ],
+            "18": [ "" ],
+            "19": [ "" ],
+            "20": [ "" ]
+        },
+        "subclasses": {
+            "": {
+                "name": "",
+                "desc": [
+                    ""
+                ],
+                "features_at_class_level": {
+                    "3": [ "" ],
+                    "6": [ "" ],
+                    "10": [ "" ],
+                    "14": [ "" ]
+                }
+            }
+        }
+
+    },
+    {
+        "index": "",
+        "name": "",
+        "desc": [
+            ""
+        ],
+        "hit_points": {
+            "hit_dice": "",
+            "hit_points_first_level": [ "" ],
+            "hit_points_higher_levels": {
+                "roll": [ "" ],
+                "round": [ "" ]
+            }
+        },
+        "proficiencies": {
+            "armor": [
+                ""
+            ],
+            "weapons": [
+                ""
+            ],
+            "saving_throws": [
+                ""
+            ],
+            "skills": {
+                "choose": {
+                    "options": [
+                    ""
+                    ],
+                    "count": 2
+                }
+            }
+        },
+        "equipment": {
+            "starting_equipment": {
+                "options": 2,
+                "option_1": {
+                    "choose": {
+                        "options": [
+                            ""
+                        ],
+                        "count": 1
+                    }
+                },
+                "option_2": {
+                    "choose": {
+                        "options": [
+                            ""
+                        ],
+                        "count": 1
+                    }
+                },
+                "given": [
+                    ""
+                ],
+                "bg_equipment_allowed": true
+            }
+        },
+        "features_at_class_level": {
+            "1": [ "" ],
+            "2": [ "" ],
+            "3": [ "" ],
+            "4": [ "" ],
+            "5": [ "" ],
+            "6": [ "" ],
+            "7": [ "" ],
+            "8": [ "" ],
+            "9": [ "" ],
+            "10": [ "" ],
+            "11": [ "" ],
+            "12": [ "" ],
+            "13": [ "" ],
+            "14": [ "" ],
+            "15": [ "" ],
+            "16": [ "" ],
+            "17": [ "" ],
+            "18": [ "" ],
+            "19": [ "" ],
+            "20": [ "" ]
+        },
+        "subclasses": {
+            "": {
+                "name": "",
+                "desc": [
+                    ""
+                ],
+                "features_at_class_level": {
+                    "3": [ "" ],
+                    "6": [ "" ],
+                    "10": [ "" ],
+                    "14": [ "" ]
+                }
+            }
+        }
+
+    },
+    {
+        "index": "",
+        "name": "",
+        "desc": [
+            ""
+        ],
+        "hit_points": {
+            "hit_dice": "",
+            "hit_points_first_level": [ "" ],
+            "hit_points_higher_levels": {
+                "roll": [ "" ],
+                "round": [ "" ]
+            }
+        },
+        "proficiencies": {
+            "armor": [
+                ""
+            ],
+            "weapons": [
+                ""
+            ],
+            "saving_throws": [
+                ""
+            ],
+            "skills": {
+                "choose": {
+                    "options": [
+                    ""
+                    ],
+                    "count": 2
+                }
+            }
+        },
+        "equipment": {
+            "starting_equipment": {
+                "options": 2,
+                "option_1": {
+                    "choose": {
+                        "options": [
+                            ""
+                        ],
+                        "count": 1
+                    }
+                },
+                "option_2": {
+                    "choose": {
+                        "options": [
+                            ""
+                        ],
+                        "count": 1
+                    }
+                },
+                "given": [
+                    ""
+                ],
+                "bg_equipment_allowed": true
+            }
+        },
+        "features_at_class_level": {
+            "1": [ "" ],
+            "2": [ "" ],
+            "3": [ "" ],
+            "4": [ "" ],
+            "5": [ "" ],
+            "6": [ "" ],
+            "7": [ "" ],
+            "8": [ "" ],
+            "9": [ "" ],
+            "10": [ "" ],
+            "11": [ "" ],
+            "12": [ "" ],
+            "13": [ "" ],
+            "14": [ "" ],
+            "15": [ "" ],
+            "16": [ "" ],
+            "17": [ "" ],
+            "18": [ "" ],
+            "19": [ "" ],
+            "20": [ "" ]
+        },
+        "subclasses": {
+            "": {
+                "name": "",
+                "desc": [
+                    ""
+                ],
+                "features_at_class_level": {
+                    "3": [ "" ],
+                    "6": [ "" ],
+                    "10": [ "" ],
+                    "14": [ "" ]
+                }
+            }
+        }
+
+    },
+    {
+        "index": "",
+        "name": "",
+        "desc": [
+            ""
+        ],
+        "hit_points": {
+            "hit_dice": "",
+            "hit_points_first_level": [ "" ],
+            "hit_points_higher_levels": {
+                "roll": [ "" ],
+                "round": [ "" ]
+            }
+        },
+        "proficiencies": {
+            "armor": [
+                ""
+            ],
+            "weapons": [
+                ""
+            ],
+            "saving_throws": [
+                ""
+            ],
+            "skills": {
+                "choose": {
+                    "options": [
+                    ""
+                    ],
+                    "count": 2
+                }
+            }
+        },
+        "equipment": {
+            "starting_equipment": {
+                "options": 2,
+                "option_1": {
+                    "choose": {
+                        "options": [
+                            ""
+                        ],
+                        "count": 1
+                    }
+                },
+                "option_2": {
+                    "choose": {
+                        "options": [
+                            ""
+                        ],
+                        "count": 1
+                    }
+                },
+                "given": [
+                    ""
+                ],
+                "bg_equipment_allowed": true
+            }
+        },
+        "features_at_class_level": {
+            "1": [ "" ],
+            "2": [ "" ],
+            "3": [ "" ],
+            "4": [ "" ],
+            "5": [ "" ],
+            "6": [ "" ],
+            "7": [ "" ],
+            "8": [ "" ],
+            "9": [ "" ],
+            "10": [ "" ],
+            "11": [ "" ],
+            "12": [ "" ],
+            "13": [ "" ],
+            "14": [ "" ],
+            "15": [ "" ],
+            "16": [ "" ],
+            "17": [ "" ],
+            "18": [ "" ],
+            "19": [ "" ],
+            "20": [ "" ]
+        },
+        "subclasses": {
+            "": {
+                "name": "",
+                "desc": [
+                    ""
+                ],
+                "features_at_class_level": {
+                    "3": [ "" ],
+                    "6": [ "" ],
+                    "10": [ "" ],
+                    "14": [ "" ]
+                }
+            }
+        }
+
+    },
+    {
+        "index": "",
+        "name": "",
+        "desc": [
+            ""
+        ],
+        "hit_points": {
+            "hit_dice": "",
+            "hit_points_first_level": [ "" ],
+            "hit_points_higher_levels": {
+                "roll": [ "" ],
+                "round": [ "" ]
+            }
+        },
+        "proficiencies": {
+            "armor": [
+                ""
+            ],
+            "weapons": [
+                ""
+            ],
+            "saving_throws": [
+                ""
+            ],
+            "skills": {
+                "choose": {
+                    "options": [
+                    ""
+                    ],
+                    "count": 2
+                }
+            }
+        },
+        "equipment": {
+            "starting_equipment": {
+                "options": 2,
+                "option_1": {
+                    "choose": {
+                        "options": [
+                            ""
+                        ],
+                        "count": 1
+                    }
+                },
+                "option_2": {
+                    "choose": {
+                        "options": [
+                            ""
+                        ],
+                        "count": 1
+                    }
+                },
+                "given": [
+                    ""
+                ],
+                "bg_equipment_allowed": true
+            }
+        },
+        "features_at_class_level": {
+            "1": [ "" ],
+            "2": [ "" ],
+            "3": [ "" ],
+            "4": [ "" ],
+            "5": [ "" ],
+            "6": [ "" ],
+            "7": [ "" ],
+            "8": [ "" ],
+            "9": [ "" ],
+            "10": [ "" ],
+            "11": [ "" ],
+            "12": [ "" ],
+            "13": [ "" ],
+            "14": [ "" ],
+            "15": [ "" ],
+            "16": [ "" ],
+            "17": [ "" ],
+            "18": [ "" ],
+            "19": [ "" ],
+            "20": [ "" ]
+        },
+        "subclasses": {
+            "": {
+                "name": "",
+                "desc": [
+                    ""
+                ],
+                "features_at_class_level": {
+                    "3": [ "" ],
+                    "6": [ "" ],
+                    "10": [ "" ],
+                    "14": [ "" ]
+                }
+            }
+        }
+
+    }
+]
