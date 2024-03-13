@@ -48,6 +48,6 @@ https://creativecommons.org/licenses/by/4.0/legalcode.
 
 ## License
 
-This project is released under the following license:
+This project (excepting included licensed content from Wizards of the Coast) is released under the following license:
 
 GNU GENERAL PUBLIC LICENSE, Version 3
