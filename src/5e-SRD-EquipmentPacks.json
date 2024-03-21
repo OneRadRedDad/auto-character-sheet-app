@@ -1,0 +1,336 @@
+[
+    {
+        "index": "pack_burglars",
+        "name": "Burglar's Pack",
+        "price": {
+			"price-num": 16,
+			"units": "gold"
+		},
+        "pack_includes": [
+            {
+                "gear": "gear_backpack",
+                "count": 1
+            },
+            {
+                "gear": "gear_ball_bearings",
+                "count": 1000
+            },
+            {
+                "gear": "gear_string",
+                "count": 10
+            },
+            {
+                "gear": "gear_bell",
+                "count": 1
+            },
+            {
+                "gear": "gear_candle",
+                "count": 5
+            },
+            {
+                "gear": "gear_crowbar",
+                "count": 1
+            },
+            {
+                "gear": "gear_hammer",
+                "count": 1
+            },
+            {
+                "gear": "gear_piton",
+                "count": 10
+            },
+            {
+                "gear": "gear_lantern_hooded",
+                "count": 1
+            },
+            {
+                "gear": "gear_oil_flask",
+                "count": 2
+            },
+            {
+                "gear": "gear_rations_one_day",
+                "count": 5
+            },
+            {
+                "gear": "gear_tinderbox",
+                "count": 1
+            },
+            {
+                "gear": "gear_waterskin",
+                "count": 1
+            },
+            {
+                "gear": "gear_rope_hempen",
+                "count": 50
+            }
+        ]
+    },
+    {
+        "index": "pack_diplomats",
+        "name": "Diplomat's Pack",
+        "price": {
+			"price-num": 39,
+			"units": "gold"
+		},
+        "pack_includes": [
+            {
+                "gear": "gear_chest",
+                "count": 1
+            },
+            {
+                "gear": "gear_case_map_scroll",
+                "count": 2
+            },
+            {
+                "gear": "gear_clothes_fine",
+                "count": 1
+            },
+            {
+                "gear": "gear_ink_ounce_bottle",
+                "count": 1
+            },
+            {
+                "gear": "gear_ink_pen",
+                "count": 1
+            },
+            {
+                "gear": "gear_lamp",
+                "count": 1
+            },
+            {
+                "gear": "gear_oil_flask",
+                "count": 2
+            },
+            {
+                "gear": "gear_paper_sheet",
+                "count": 5
+            },
+            {
+                "gear": "gear_perfume_vial",
+                "count": 1
+            },
+            {
+                "gear": "gear_sealing_wax",
+                "count": 1
+            },
+            {
+                "gear": "gear_soap",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "index": "pack_dungeoneers",
+        "name": "Dungeoneer's Pack",
+        "price": {
+			"price-num": 12,
+			"units": "gold"
+		},
+        "pack_includes": [
+            {
+                "gear": "gear_backpack",
+                "count": 1
+            },
+            {
+                "gear": "gear_crowbar",
+                "count": 1
+            },
+            {
+                "gear": "gear_hammer",
+                "count": 1
+            },
+            {
+                "gear": "gear_piton",
+                "count": 10
+            },
+            {
+                "gear": "gear_torch",
+                "count": 10
+            },
+            {
+                "gear": "gear_tinderbox",
+                "count": 1
+            },
+            {
+                "gear": "gear_rations_one_day",
+                "count": 10
+            },
+            {
+                "gear": "gear_waterskin",
+                "count": 1
+            },
+            {
+                "gear": "gear_rope_hempen",
+                "count": 50
+            }
+        ]
+    },
+    {
+        "index": "pack_entertainers",
+        "name": "Entertainer's Pack",
+        "price": {
+			"price-num": 40,
+			"units": "gold"
+		},
+        "pack_includes": [
+            {
+                "gear": "gear_backpack",
+                "count": 1
+            },
+            {
+                "gear": "gear_bedroll",
+                "count": 1
+            },
+            {
+                "gear": "gear_clothes_costume",
+                "count": 2
+            },
+            {
+                "gear": "gear_candle",
+                "count": 5
+            },
+            {
+                "gear": "gear_rations_one_day",
+                "count": 5
+            },
+            {
+                "gear": "gear_waterskin",
+                "count": 1
+            },
+            {
+                "gear": "tool_disguise_kit",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "index": "pack_explorers",
+        "name": "Explorer's Pack",
+        "price": {
+			"price-num": 10,
+			"units": "gold"
+		},
+        "pack_includes": [
+            {
+                "gear": "gear_backpack",
+                "count": 1
+            },
+            {
+                "gear": "gear_bedroll",
+                "count": 1
+            },
+            {
+                "gear": "gear_mess_kit",
+                "count": 1
+            },
+            {
+                "gear": "gear_tinderbox",
+                "count": 1
+            },
+            {
+                "gear": "gear_torch",
+                "count": 10
+            },
+            {
+                "gear": "gear_rations_one_day",
+                "count": 10
+            },
+            {
+                "gear": "gear_waterskin",
+                "count": 1
+            },
+            {
+                "gear": "gear_rope_hempen",
+                "count": 50
+            }
+        ]
+    },
+    {
+        "index": "pack_priests",
+        "name": "Priest's Pack",
+        "price": {
+			"price-num": 19,
+			"units": "gold"
+		},
+        "pack_includes": [
+            {
+                "gear": "gear_backpack",
+                "count": 1
+            },
+            {
+                "gear": "gear_blanket",
+                "count": 1
+            },
+            {
+                "gear": "gear_candle",
+                "count": 10
+            },
+            {
+                "gear": "gear_tinderbox",
+                "count": 1
+            },
+            {
+                "gear": "gear_alms_box",
+                "count": 1
+            },
+            {
+                "gear": "gear_incense_block",
+                "count": 2
+            },
+            {
+                "gear": "gear_censer",
+                "count": 1
+            },
+            {
+                "gear": "gear_vestments",
+                "count": 1
+            },
+            {
+                "gear": "gear_rations_one_day",
+                "count": 2
+            },
+            {
+                "gear": "gear_waterskin",
+                "count": 1
+            }
+        ]
+    },
+    {
+        "index": "pack_scholars",
+        "name": "Scholar's Pack",
+        "price": {
+			"price-num": 40,
+			"units": "gold"
+		},
+        "pack_includes": [
+            {
+                "gear": "gear_backpack",
+                "count": 1
+            },
+            {
+                "gear": "gear_book",
+                "count": 1
+            },
+            {
+                "gear": "gear_ink_ounce_bottle",
+                "count": 1
+            },
+            {
+                "gear": "gear_ink_pen",
+                "count": 1
+            },
+            {
+                "gear": "gear_parchment_sheet",
+                "count": 10
+            },
+            {
+                "gear": "gear_sand_bag",
+                "count": 1
+            },
+            {
+                "gear": "gear_knife_small",
+                "count": 1
+            }
+        ]
+    }
+]

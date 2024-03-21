@@ -1,28 +1,36 @@
 [
     {
-        "index": "barbarian",
+        "index": "class_barbarian",
         "name": "Barbarian",
         "desc": [
             ""
         ],
         "hit_points": {
-            "hit_dice": "1d12",
-            "hit_points_first_level":  12,
-            "hit_points_higher_levels": {
+            "hit_dice": {
                 "roll": "1d12",
                 "round": 7
-            }
+            },
+            "hit_points_first_level":  12
         },
         "proficiencies": {
-            "armor": [
+            "armor_type": [
                 "light",
                 "medium",
                 "shields"
             ],
-            "weapons": [
-                "simple",
-                "martial"
-            ],
+            "weapons": {
+                "major_properties": {
+                    "is_martial": [ 
+                        "false",
+                        "true"
+                    ],
+                    "is_ranged": [
+                        "false",
+                        "true"
+                    ]
+                },
+                "minor_properties": null
+            },
             "saving_throws": [
                 "strength",
                 "constitution"
@@ -43,28 +51,28 @@
         },
         "equipment": {
             "starting_equipment": {
-                "options": 2,
-                "option_1": {
+                "choices": 2,
+                "choice_1": {
                     "choose": {
                         "options": [
-                            "one greataxe",
-                            "any martial melee weapon",
+                            "greataxe",
+                            "martial_melee_weapon"
                         ],
                         "count": 1
                     }
                 },
-                "option_2": {
+                "choice_2": {
                     "choose": {
                         "options": [
-                            "two handaxes",
-                            "any simple weapon"
+                            ["handaxes", 2],
+                            "simple_weapon"
                         ],
                         "count": 1
                     }
                 },
                 "given": [
-                    "an explorer's pack",
-                    "four javelins"
+                    "explorers_pack",
+                    ["javelins", 4 ]
                 ],
                 "bg_equipment_allowed": true
             }
@@ -104,7 +112,7 @@
         }
     },
     {
-        "index": "bard",
+        "index": "class_bard",
         "name": "Bard",
         "desc": [
             ""
@@ -118,11 +126,11 @@
             }
         },
         "proficiencies": {
-            "armor": [
+            "armor_type": [
                 "light"
             ],
             "weapons": [
-                "simple",
+                "is_martial": false,
                 "hand_crossbows",
                 "longswords",
                 "rapiers",
@@ -243,7 +251,7 @@
 
     },
     {
-        "index": "cleric",
+        "index": "class_cleric",
         "name": "Cleric",
         "desc": [
             ""
@@ -257,7 +265,7 @@
             }
         },
         "proficiencies": {
-            "armor": [
+            "armor_type": [
                 "light",
                 "medium",
                 "shields"
@@ -330,70 +338,87 @@
             }
         },
         "features_at_class_level": {
-            "1": [ "spellcasting", "divine_domain" ],
+            "1": [ "spellcasting", "divine_domain", "subclass_selection" ],
             "2": [ "channel_divinity", "divine_domain" ],
-            "3": [ "subclass_selection" ],
             "4": [ "ability_score_improvement" ],
             "5": [ "destroy_undead" ],
             "6": [ "channel_divinity", "divine_domain" ],
             "8": [ "ability_score_improvement", "destroy_undead", "divine_domain" ],
-            "9": [ "" ],
-            "10": [ "" ],
-            "11": [ "" ],
-            "12": [ "" ],
-            "13": [ "" ],
-            "14": [ "" ],
-            "15": [ "" ],
-            "16": [ "" ],
-            "17": [ "" ],
-            "18": [ "" ],
-            "19": [ "" ],
-            "20": [ "" ]
+            "10": [ "divine_intervention" ],
+            "11": [ "destroy_undead" ],
+            "12": [ "ability_score_improvement" ],
+            "14": [ "destroy_undead" ],
+            "16": [ "ability_score_improvement" ],
+            "17": [ "destroy_undead", "divine_domain" ],
+            "18": [ "channel_divinity" ],
+            "19": [ "ability_score_improvement" ],
+            "20": [ "divine_intervention" ]
         },
         "subclasses": {
-            "": {
-                "name": "",
+            "life_domain": {
+                "name": "Life Domain",
                 "desc": [
-                    ""
+                    "The Life domain focuses on the vibrant positive energy—one of the fundamental forces of the universe—that sustains all life. The gods of life promote vitality and health through healing the sick and wounded, caring for those in need, and driving away the forces of death and undeath. Almost any non-­‐‑evil deity can claim influence over this domain, particularly agricultural deities (such as Chauntea, Arawai, and Demeter), sun gods (such as Lathander, Pelor, and Re-­‐‑Horakhty), gods of healing or"
                 ],
                 "features_at_class_level": {
-                    "3": [ "" ],
-                    "6": [ "" ],
-                    "10": [ "" ],
-                    "14": [ "" ]
+                    "1": [ "heavy_armor_proficiency", "disciple_of_life" ],
+                    "2": [ "preserve_life" ],
+                    "6": [ "blessed_healer" ],
+                    "8": [ "divine_strike" ],
+                    "14": [ "divine_strike" ],
+                    "17": [ "supreme_healing" ]
                 }
             }
         }
 
     },
     {
-        "index": "",
-        "name": "",
+        "index": "class_druid",
+        "name": "Druid",
         "desc": [
             ""
         ],
         "hit_points": {
-            "hit_dice": "",
-            "hit_points_first_level": [ "" ],
+            "hit_dice": "1d8",
+            "hit_points_first_level": 8,
             "hit_points_higher_levels": {
-                "roll": [ "" ],
-                "round": [ "" ]
+                "roll": "1d8",
+                "round": 5
             }
         },
         "proficiencies": {
-            "armor": [
-                ""
+            "armor_type": [
+                "light",
+                "medium",
+                "shields"
             ],
             "weapons": [
-                ""
+                "clubs",
+                "daggers",
+                "darts",
+                "javelins",
+                "maces",
+                "quarterstaffs",
+                "scimitars",
+                "sickles",
+                "slings",
+                "spears"
             ],
+            "tools": [ "herbalism_kit" ],
             "saving_throws": [
-                ""
+                "intellience",
+                "wisdom"
             ],
             "skills": {
                 "choose": {
                     "options": [
-                    ""
+                        "arcana",
+                        "animal_handling",
+                        "insight",
+                        "medicine",
+                        "perception",
+                        "religion",
+                        "survival"
                     ],
                     "count": 2
                 }
@@ -401,95 +426,104 @@
         },
         "equipment": {
             "starting_equipment": {
-                "options": 2,
-                "option_1": {
+                "choices": 2,
+                "choice_1": {
                     "choose": {
                         "options": [
-                            ""
+                            "a wooden shield",
+                            "any simple weapon"
                         ],
                         "count": 1
                     }
                 },
-                "option_2": {
+                "choice_2": {
                     "choose": {
                         "options": [
-                            ""
+                            "a scimitar",
+                            "any simple melee weapon"
                         ],
                         "count": 1
                     }
                 },
                 "given": [
-                    ""
+                    "leather armor",
+                    "an explorer's pack",
+                    "a druidic focus"
                 ],
                 "bg_equipment_allowed": true
             }
         },
         "features_at_class_level": {
-            "1": [ "" ],
-            "2": [ "" ],
-            "3": [ "" ],
-            "4": [ "" ],
-            "5": [ "" ],
-            "6": [ "" ],
-            "7": [ "" ],
-            "8": [ "" ],
-            "9": [ "" ],
-            "10": [ "" ],
-            "11": [ "" ],
-            "12": [ "" ],
-            "13": [ "" ],
-            "14": [ "" ],
-            "15": [ "" ],
-            "16": [ "" ],
-            "17": [ "" ],
-            "18": [ "" ],
-            "19": [ "" ],
-            "20": [ "" ]
+            "1": [ "druidic", "spellcasting" ],
+            "2": [ "wild_shape", "subclass_selection", "druid_circle" ],
+            "4": [ "wild_shape", "ability_score_improvement" ],
+            "6": [ "druid_circle" ],
+            "8": [ "wild_shape", "ability_score_improvement" ],
+            "10": [ "druid_circle" ],
+            "12": [ "ability_score_improvement" ],
+            "14": [ "druid_circle" ],
+            "16": [ "ability_score_improvement" ],
+            "18": [ "timeless_body", "beast_spells" ],
+            "19": [ "ability_score_improvement" ],
+            "20": [ "archdruid" ]
         },
         "subclasses": {
-            "": {
-                "name": "",
+            "circle_of_the_land": {
+                "name": "Circle of the Land",
                 "desc": [
-                    ""
+                    "The Circle of the Land is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle’s wisest members preside as the chief priests of communities that hold to the Old Faith and serve as advisors to the rulers of those folk. As a member of this circle, your magic is influenced by the land where you were initiated into the circle’s mysterious rites."
                 ],
                 "features_at_class_level": {
-                    "3": [ "" ],
-                    "6": [ "" ],
-                    "10": [ "" ],
-                    "14": [ "" ]
+                    "2": [ "bonus_cantrip", "natural_recovery" ],
+                    "6": [ "lands_stride" ],
+                    "10": [ "natures_ward" ],
+                    "14": [ "natures_sanctuary" ]
                 }
             }
         }
 
     },
     {
-        "index": "",
-        "name": "",
+        "index": "class_fighter",
+        "name": "Fighter",
         "desc": [
             ""
         ],
         "hit_points": {
-            "hit_dice": "",
-            "hit_points_first_level": [ "" ],
+            "hit_dice": "1d10",
+            "hit_points_first_level": 10,
             "hit_points_higher_levels": {
-                "roll": [ "" ],
-                "round": [ "" ]
+                "roll": "1d10",
+                "round": 6
             }
         },
         "proficiencies": {
-            "armor": [
-                ""
+            "armor_type": [
+                "light",
+                "medium",
+                "heavy",
+                "shields"
             ],
             "weapons": [
-                ""
+                "is_martial": false,
+                "martial"
             ],
+            "tools": [ "none" ],
             "saving_throws": [
-                ""
+                "strength",
+                "constitution"
             ],
             "skills": {
                 "choose": {
                     "options": [
-                    ""
+                    "acrobatics",
+                    "animal_handling",
+                    "athletics",
+                    "history",
+                    "insight",
+                    "intimidation",
+                    "perception",
+                    "survival"
                     ],
                     "count": 2
                 }
@@ -497,95 +531,130 @@
         },
         "equipment": {
             "starting_equipment": {
-                "options": 2,
-                "option_1": {
+                "choices": 4,
+                "choice_1": {
                     "choose": {
                         "options": [
-                            ""
+                            "chain mail",
+                            "leather armor, longbow, and 20 arrows"
                         ],
                         "count": 1
                     }
                 },
-                "option_2": {
+                "choice_2": {
                     "choose": {
                         "options": [
-                            ""
+                            "a martial weapon",
+                            "a shield"
                         ],
                         "count": 1
+                    }
+                },
+                "choice_3": {
+                    "choose": {
+                        "options": [
+                            "a light crossbow and 20 bolts",
+                            "two handaxes"
+                        ]
+                    }
+                },
+                "choice_4": {
+                    "choose": {
+                        "options": [
+                            "a dungeoneer's pack",
+                            "an explorer's pack"
+                        ]
                     }
                 },
                 "given": [
-                    ""
+                    "a martial weapon"
                 ],
                 "bg_equipment_allowed": true
             }
         },
         "features_at_class_level": {
-            "1": [ "" ],
-            "2": [ "" ],
-            "3": [ "" ],
-            "4": [ "" ],
-            "5": [ "" ],
-            "6": [ "" ],
-            "7": [ "" ],
-            "8": [ "" ],
-            "9": [ "" ],
-            "10": [ "" ],
-            "11": [ "" ],
-            "12": [ "" ],
-            "13": [ "" ],
-            "14": [ "" ],
-            "15": [ "" ],
-            "16": [ "" ],
-            "17": [ "" ],
-            "18": [ "" ],
-            "19": [ "" ],
-            "20": [ "" ]
+            "1": [ "fighting_style", "second_wind" ],
+            "2": [ "action_surge" ],
+            "3": [ "martial_archetype", "subclass_selection" ],
+            "4": [ "ability_score_improvement" ],
+            "5": [ "extra_attack" ],
+            "6": [ "ability_score_improvement" ],
+            "7": [ "martial_archetype" ],
+            "8": [ "ability_score_improvement" ],
+            "9": [ "indomitable" ],
+            "10": [ "martial_archetype" ],
+            "11": [ "extra_attack" ],
+            "12": [ "ability_score_improvement" ],
+            "13": [ "indomitable" ],
+            "14": [ "ability_score_improvement" ],
+            "15": [ "martial_archetype" ],
+            "16": [ "ability_score_improvement" ],
+            "17": [ "action_surge", "indomitable" ],
+            "18": [ "martial_archetype" ],
+            "19": [ "ability_score_improvement" ],
+            "20": [ "extra_attack" ]
         },
         "subclasses": {
-            "": {
-                "name": "",
+            "champion": {
+                "name": "Champion",
                 "desc": [
-                    ""
+                    "The archetypal Champion focuses on the development of raw physical power honed to deadly perfection. Those who model themselves on this archetype combine rigorous training with physical excellence to deal devastating blows."
                 ],
                 "features_at_class_level": {
-                    "3": [ "" ],
-                    "6": [ "" ],
-                    "10": [ "" ],
-                    "14": [ "" ]
+                    "3": [ "improved_critical" ],
+                    "7": [ "remarkable_athlete" ],
+                    "10": [ "fighting_style" ],
+                    "15": [ "improved_critical" ],
+                    "18": [ "survivor" ]
                 }
             }
         }
 
     },
     {
-        "index": "",
-        "name": "",
+        "index": "class_monk",
+        "name": "Monk",
         "desc": [
             ""
         ],
         "hit_points": {
-            "hit_dice": "",
-            "hit_points_first_level": [ "" ],
+            "hit_dice": "1d8",
+            "hit_points_first_level": 8,
             "hit_points_higher_levels": {
-                "roll": [ "" ],
-                "round": [ "" ]
+                "roll": "1d8",
+                "round": 5
             }
         },
         "proficiencies": {
-            "armor": [
-                ""
+            "armor_type": [
+                "none"
             ],
             "weapons": [
-                ""
+                "is_martial": false,
+                "shortswords"
             ],
+            "tools": {
+                "choose": {
+                    "options": [
+                        "artisan's tools",
+                        "musical instrument"
+                    ],
+                    "count": 1
+                }
+            },
             "saving_throws": [
-                ""
+                "strength",
+                "dexterity"
             ],
             "skills": {
                 "choose": {
                     "options": [
-                    ""
+                    "acrobatics",
+                    "athletics",
+                    "history",
+                    "insight",
+                    "religion",
+                    "stealth"
                     ],
                     "count": 2
                 }
@@ -593,95 +662,106 @@
         },
         "equipment": {
             "starting_equipment": {
-                "options": 2,
-                "option_1": {
+                "choices": 2,
+                "choice_1": {
                     "choose": {
                         "options": [
-                            ""
+                            "a shortsword",
+                            "any simple weapon"
                         ],
                         "count": 1
                     }
                 },
-                "option_2": {
+                "choice_2": {
                     "choose": {
                         "options": [
-                            ""
+                            "a dungeoneer's pack",
+                            "an explorer's pack"
                         ],
                         "count": 1
                     }
                 },
                 "given": [
-                    ""
+                    "10 darts"
                 ],
                 "bg_equipment_allowed": true
             }
         },
         "features_at_class_level": {
-            "1": [ "" ],
-            "2": [ "" ],
-            "3": [ "" ],
-            "4": [ "" ],
-            "5": [ "" ],
-            "6": [ "" ],
-            "7": [ "" ],
-            "8": [ "" ],
-            "9": [ "" ],
-            "10": [ "" ],
-            "11": [ "" ],
-            "12": [ "" ],
-            "13": [ "" ],
-            "14": [ "" ],
-            "15": [ "" ],
-            "16": [ "" ],
-            "17": [ "" ],
-            "18": [ "" ],
-            "19": [ "" ],
-            "20": [ "" ]
+            "1": [ "unarmored_defense", "martial_arts" ],
+            "2": [ "ki", "unarmored_movement" ],
+            "3": [ "subclass_selection", "deflect_missiles" ],
+            "4": [ "ability_score_improvement", "slow_fall" ],
+            "5": [ "extra_attack", "stunning_strike" ],
+            "6": [ "ki_empowered_strikes" ],
+            "7": [ "evasion", "stillness_of_mind" ],
+            "8": [ "ability_score_improvement" ],
+            "9": [ "unarmored_movement" ],
+            "10": [ "purity_of_body" ],
+            "12": [ "ability_score_improvement" ],
+            "13": [ "tongue_of_the_sun_and_moon" ],
+            "14": [ "diamond_soul" ],
+            "15": [ "timeless_body" ],
+            "16": [ "ability_score_improvement" ],
+            "18": [ "empty_body" ],
+            "19": [ "ability_score_improvement" ],
+            "20": [ "perfect_self" ]
         },
         "subclasses": {
-            "": {
-                "name": "",
+            "way_of_the_open_hand": {
+                "name": "Way of the Open Hand",
                 "desc": [
-                    ""
+                    "Monks of the Way of the Open Hand are the ultimate masters of martial arts combat, whether armed or unarmed. They learn techniques to push and trip their opponents, manipulate ki to heal damage to their bodies, and practice advanced meditation that can protect them from harm."
                 ],
                 "features_at_class_level": {
-                    "3": [ "" ],
-                    "6": [ "" ],
-                    "10": [ "" ],
-                    "14": [ "" ]
+                    "3": [ "open_hand_technique" ],
+                    "6": [ "wholeness_of_body" ],
+                    "11": [ "tranquility" ],
+                    "17": [ "quivering_palm" ]
                 }
             }
         }
 
     },
     {
-        "index": "",
-        "name": "",
+        "index": "class_paladin",
+        "name": "Paladin",
         "desc": [
             ""
         ],
         "hit_points": {
-            "hit_dice": "",
-            "hit_points_first_level": [ "" ],
+            "hit_dice": "1d10",
+            "hit_points_first_level": 10,
             "hit_points_higher_levels": {
-                "roll": [ "" ],
-                "round": [ "" ]
+                "roll": "1d10",
+                "round": 6
             }
         },
         "proficiencies": {
-            "armor": [
-                ""
+            "armor_type": [
+                "light",
+                "medium",
+                "heavy",
+                "shields"
             ],
             "weapons": [
-                ""
+                "is_martial": false,
+                "martial"
             ],
+            "tools": [ "none" ],
             "saving_throws": [
-                ""
+                "wisdom",
+                "charisma"
             ],
             "skills": {
                 "choose": {
                     "options": [
-                    ""
+                    "athletics",
+                    "insight",
+                    "intimidation",
+                    "medicine",
+                    "persuasion",
+                    "religion"
                     ],
                     "count": 2
                 }
@@ -689,95 +769,351 @@
         },
         "equipment": {
             "starting_equipment": {
-                "options": 2,
-                "option_1": {
+                "choices": 3,
+                "choice_1": {
                     "choose": {
                         "options": [
-                            ""
+                            "a martial weapon",
+                            "a shield"
                         ],
                         "count": 1
                     }
                 },
-                "option_2": {
+                "choice_2": {
                     "choose": {
                         "options": [
-                            ""
+                            "five javelins",
+                            "any simple melee weapon"
+                        ],
+                        "count": 1
+                    }
+                },
+                "choice_3": {
+                    "choose": {
+                        "options": [
+                            "a priest's pack",
+                            "an explorer's pack"
                         ],
                         "count": 1
                     }
                 },
                 "given": [
-                    ""
+                    "a martial weapon",
+                    "chain mail",
+                    "a holy symbol"
                 ],
                 "bg_equipment_allowed": true
             }
         },
         "features_at_class_level": {
-            "1": [ "" ],
-            "2": [ "" ],
-            "3": [ "" ],
-            "4": [ "" ],
-            "5": [ "" ],
-            "6": [ "" ],
-            "7": [ "" ],
-            "8": [ "" ],
-            "9": [ "" ],
-            "10": [ "" ],
-            "11": [ "" ],
-            "12": [ "" ],
-            "13": [ "" ],
-            "14": [ "" ],
-            "15": [ "" ],
-            "16": [ "" ],
-            "17": [ "" ],
-            "18": [ "" ],
-            "19": [ "" ],
-            "20": [ "" ]
+            "1": [ "divine_sense", "lay_on_hands" ],
+            "2": [ "fighting_style", "spellcasting", "divine_smite" ],
+            "3": [ "divine_health", "subclass_selection" ],
+            "4": [ "ability_score_improvement" ],
+            "5": [ "extra_attack" ],
+            "6": [ "aura_of_protection" ],
+            "8": [ "ability_score_improvement" ],
+            "10": [ "aura_of_courage" ],
+            "11": [ "divine_smite" ],
+            "12": [ "ability_score_improvement" ],
+            "14": [ "cleansing_touch" ],
+            "16": [ "ability_score_improvement" ],
+            "18": [ "aura_of_protection", "aura_of_courage" ],
+            "19": [ "ability_score_improvement" ]
         },
         "subclasses": {
-            "": {
-                "name": "",
+            "oath_of_devotion": {
+                "name": "Oath of Devotion",
                 "desc": [
-                    ""
+                    "The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods’ tenets as the measure of their devotion. They hold angels—the perfect servants of good—as their ideals, and incorporate images of angelic wings into their helmets or coats of arms."
                 ],
                 "features_at_class_level": {
-                    "3": [ "" ],
-                    "6": [ "" ],
-                    "10": [ "" ],
-                    "14": [ "" ]
+                    "3": [ "devotion_channel_divinity" ],
+                    "7": [ "aura_of_devotion" ],
+                    "15": [ "purirty_of_spirit" ],
+                    "18": [ "aura_of_devotion" ],
+                    "20": [ "holy_nimbus" ]
                 }
             }
         }
 
     },
     {
-        "index": "",
-        "name": "",
+        "index": "class_ranger",
+        "name": "Ranger",
         "desc": [
             ""
         ],
         "hit_points": {
-            "hit_dice": "",
-            "hit_points_first_level": [ "" ],
+            "hit_dice": "1d10",
+            "hit_points_first_level": 10,
             "hit_points_higher_levels": {
-                "roll": [ "" ],
-                "round": [ "" ]
+                "roll": "1d10",
+                "round": 6
             }
         },
         "proficiencies": {
-            "armor": [
-                ""
+            "armor_type": [
+                "light",
+                "medium",
+                "shields"
             ],
             "weapons": [
-                ""
+                "is_martial": false,
+                "martial"
             ],
+            "tools": [ "none" ],
             "saving_throws": [
-                ""
+                "strength",
+                "dexterity"
             ],
             "skills": {
                 "choose": {
                     "options": [
-                    ""
+                    "animal_handling",
+                    "athletics",
+                    "insight",
+                    "investigation",
+                    "nature",
+                    "perception",
+                    "stealth",
+                    "survival"
+                    ],
+                    "count": 3
+                }
+            }
+        },
+        "equipment": {
+            "starting_equipment": {
+                "choices": 3,
+                "choice_1": {
+                    "choose": {
+                        "options": [
+                            "scale mail",
+                            "leather armor"
+                        ],
+                        "count": 1
+                    }
+                },
+                "choice_2": {
+                    "choose": {
+                        "options": [
+                            "two shortswords",
+                            "two simple melee weapons"
+                        ],
+                        "count": 1
+                    }
+                },
+                "choice_3": {
+                    "choose": {
+                        "options": [
+                            "a dungeoneer's pack",
+                            "an explorer's pack"
+                        ],
+                        "count": 1
+                    }
+                },
+                "given": [
+                    "longbow",
+                    "quiver",
+                    "20 arrows"
+                ],
+                "bg_equipment_allowed": true
+            }
+        },
+        "features_at_class_level": {
+            "1": [ "favored_enemy", "natural_explorer" ],
+            "2": [ "fighting_style", "spellcasting" ],
+            "3": [ "subclass_selection", "primeval_awareness" ],
+            "4": [ "ability_score_improvement" ],
+            "5": [ "extra_attack" ],
+            "6": [ "favored_enemy", "natural_explorer" ],
+            "8": [ "ability_score_improvement", "lands_stride" ],
+            "10": [ "natural_explorer", "hide_in_plain_sight" ],
+            "12": [ "ability_score_improvement" ],
+            "14": [ "favored_enemy", "vanish" ],
+            "16": [ "ability_score_improvement" ],
+            "18": [ "feral_senses" ],
+            "19": [ "ability_score_improvement" ],
+            "20": [ "foe_slayer" ]
+        },
+        "subclasses": {
+            "hunter": {
+                "name": "Hunter",
+                "desc": [
+                    "Emulating the Hunter archetype means accepting your place as a bulwark between civilization and the terrors of the wilderness. As you walk the Hunter’s path, you learn specialized techniques for fighting the threats you face, from rampaging ogres and hordes of orcs to towering giants and terrifying dragons."
+                ],
+                "features_at_class_level": {
+                    "3": [ "hunters_prey" ],
+                    "7": [ "defensive_tactics" ],
+                    "11": [ "multiattack" ],
+                    "15": [ "superior_hunters_defense" ]
+                }
+            }
+        }
+
+    },
+    {
+        "index": "class_rogue",
+        "name": "Rogue",
+        "desc": [
+            ""
+        ],
+        "hit_points": {
+            "hit_dice": "1d8",
+            "hit_points_first_level": 8,
+            "hit_points_higher_levels": {
+                "roll": "1d8",
+                "round": 5
+            }
+        },
+        "proficiencies": {
+            "armor_type": [
+                "light"
+            ],
+            "weapons": [
+                "is_martial": false,
+                "hand_crossbows",
+                "longswords",
+                "rapiers",
+                "shortswords"
+            ],
+            "saving_throws": [
+                "dexterity",
+                "intellience"
+            ],
+            "skills": {
+                "choose": {
+                    "options": [
+                    "acrobatics",
+                    "athletics",
+                    "deception",
+                    "insight",
+                    "intimidation",
+                    "investigation",
+                    "perception",
+                    "performance",
+                    "persuasion",
+                    "sleight_of_hand",
+                    "stealth"
+                    ],
+                    "count": 4
+                }
+            }
+        },
+        "equipment": {
+            "starting_equipment": {
+                "choices": 3,
+                "choice_1": {
+                    "choose": {
+                        "options": [
+                            "a rapier",
+                            "a shortsword"
+                        ],
+                        "count": 1
+                    }
+                },
+                "choice_2": {
+                    "choose": {
+                        "options": [
+                            "a shortbow, a quiver, and 20 arrows",
+                            "a shortsword"
+                        ],
+                        "count": 1
+                    }
+                },
+                "choice_3": {
+                    "choose": {
+                        "options": [
+                            "a burglar's pack",
+                            "a dungeoneer's pack",
+                            "an explorer's pack"
+                        ],
+                        "count": 1
+                    }
+                },
+                "given": [
+                    "leather armor",
+                    "two daggers",
+                    "thieves' tools"
+                ],
+                "bg_equipment_allowed": true
+            }
+        },
+        "features_at_class_level": {
+            "1": [ "expertise", "sneak_attack", "thieves_cant" ],
+            "2": [ "cunning_action" ],
+            "3": [ "subclass_selection" ],
+            "4": [ "ability_score_improvement" ],
+            "5": [ "uncanny_dodge" ],
+            "6": [ "expertise" ],
+            "7": [ "evasion" ],
+            "8": [ "ability_score_improvement" ],
+            "10": [ "ability_score_improvement" ],
+            "11": [ "reliable_talent" ],
+            "12": [ "ability_score_improvement" ],
+            "14": [ "blindsense" ],
+            "15": [ "slippery_mind" ],
+            "16": [ "ability_score_improvement" ],
+            "18": [ "elusive" ],
+            "19": [ "ability_score_improvement" ],
+            "20": [ "stroke_of_luck" ]
+        },
+        "subclasses": {
+            "thief": {
+                "name": "Thief",
+                "desc": [
+                    "You hone your skills in the larcenous arts. Burglars, bandits, cutpurses, and other criminals typically follow this archetype, but so do rogues who prefer to think of themselves as professional treasure seekers, explorers, delvers, and investigators. In addition to improving your agility and stealth, you learn skills useful for delving into ancient ruins, reading unfamiliar languages, and using magic items you normally couldn’t employ."
+                ],
+                "features_at_class_level": {
+                    "3": [ "fast_hands", "second_story_work" ],
+                    "9": [ "supreme_sneak" ],
+                    "13": [ "use_magic_device" ],
+                    "17": [ "thiefs_reflexes" ]
+                }
+            }
+        }
+
+    },
+    {
+        "index": "class_sorcerer",
+        "name": "Sorcerer",
+        "desc": [
+            ""
+        ],
+        "hit_points": {
+            "hit_dice": "1d6",
+            "hit_points_first_level": 6,
+            "hit_points_higher_levels": {
+                "roll": "1d6",
+                "round": 4
+            }
+        },
+        "proficiencies": {
+            "armor_type": [
+                "none"
+            ],
+            "weapons": [
+                "daggers",
+                "darts",
+                "slings",
+                "quarterstaffs",
+                "light crossbows"
+            ],
+            "tools": [ "none" ],
+            "saving_throws": [
+                "constitution",
+                "charisma"
+            ],
+            "skills": {
+                "choose": {
+                    "options": [
+                    "arcana",
+                    "deception",
+                    "insight",
+                    "intimidation",
+                    "persuasion",
+                    "religion"
                     ],
                     "count": 2
                 }
@@ -785,95 +1121,105 @@
         },
         "equipment": {
             "starting_equipment": {
-                "options": 2,
-                "option_1": {
+                "choices": 3,
+                "choice_1": {
                     "choose": {
                         "options": [
-                            ""
+                            "a light crossbow and 20 bolts",
+                            "any simple weapon"
                         ],
                         "count": 1
                     }
                 },
-                "option_2": {
+                "choice_2": {
                     "choose": {
                         "options": [
-                            ""
+                            "a component pouch",
+                            "an arcane focus"
+                        ],
+                        "count": 1
+                    }
+                },
+                "choice_3": {
+                    "choose": {
+                        "options": [
+                            "a dungeoneer's pack",
+                            "an explorer's pack"
                         ],
                         "count": 1
                     }
                 },
                 "given": [
-                    ""
+                    "two daggers"
                 ],
                 "bg_equipment_allowed": true
             }
         },
         "features_at_class_level": {
-            "1": [ "" ],
-            "2": [ "" ],
-            "3": [ "" ],
-            "4": [ "" ],
-            "5": [ "" ],
-            "6": [ "" ],
-            "7": [ "" ],
-            "8": [ "" ],
-            "9": [ "" ],
-            "10": [ "" ],
-            "11": [ "" ],
-            "12": [ "" ],
-            "13": [ "" ],
-            "14": [ "" ],
-            "15": [ "" ],
-            "16": [ "" ],
-            "17": [ "" ],
-            "18": [ "" ],
-            "19": [ "" ],
-            "20": [ "" ]
+            "1": [ "spellcasting", "subclass_selection" ],
+            "2": [ "font_of_magic" ],
+            "3": [ "metamagic" ],
+            "4": [ "ability_score_improvement" ],
+            "8": [ "ability_score_improvement" ],
+            "10": [ "metamagic" ],
+            "12": [ "ability_score_improvement" ],
+            "16": [ "ability_score_improvement" ],
+            "17": [ "metamagic" ],
+            "19": [ "ability_score_improvement" ],
+            "20": [ "sorcerous_restoration" ]
         },
         "subclasses": {
-            "": {
-                "name": "",
+            "draconic_bloodline": {
+                "name": "Draconic Bloodline",
                 "desc": [
-                    ""
+                    "Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure. Any given sorcerer could be the first of a new bloodline, as a result of a pact or some other exceptional circumstance."
                 ],
                 "features_at_class_level": {
-                    "3": [ "" ],
-                    "6": [ "" ],
-                    "10": [ "" ],
-                    "14": [ "" ]
+                    "1": [ "dragon_ancestor", "draconic_resilience" ],
+                    "6": [ "elemental_affinity" ],
+                    "14": [ "dragon_wings" ],
+                    "18": [ "draconic_presence" ]
                 }
             }
         }
 
     },
     {
-        "index": "",
-        "name": "",
+        "index": "class_warlock",
+        "name": "Warlock",
         "desc": [
             ""
         ],
         "hit_points": {
-            "hit_dice": "",
-            "hit_points_first_level": [ "" ],
+            "hit_dice": "1d8",
+            "hit_points_first_level": 8,
             "hit_points_higher_levels": {
-                "roll": [ "" ],
-                "round": [ "" ]
+                "roll": "1d8",
+                "round": 5
             }
         },
         "proficiencies": {
-            "armor": [
-                ""
+            "armor_type": [
+                "light"
             ],
             "weapons": [
-                ""
+                "is_martial": false
             ],
+            "tools": [ "none" ],
             "saving_throws": [
-                ""
+                "wisdom",
+                "charisma"
             ],
             "skills": {
                 "choose": {
                     "options": [
-                    ""
+                    "arcana",
+                    "deception",
+                    "history",
+                    "intimidation",
+                    "investigation",
+                    "nature",
+                    "religion"
                     ],
                     "count": 2
                 }
@@ -881,95 +1227,111 @@
         },
         "equipment": {
             "starting_equipment": {
-                "options": 2,
-                "option_1": {
+                "choices": 3,
+                "choice_1": {
                     "choose": {
                         "options": [
-                            ""
+                            "a light crossbow and 20 bolts",
+                            "any simple weapon"
                         ],
                         "count": 1
                     }
                 },
-                "option_2": {
+                "choice_2": {
                     "choose": {
                         "options": [
-                            ""
+                            "a component pouch",
+                            "an arcane focus"
+                        ],
+                        "count": 1
+                    }
+                },
+                "choice_3": {
+                    "choose": {
+                        "options": [
+                            "a scholar's pack",
+                            "a dungeoneer's pack"
                         ],
                         "count": 1
                     }
                 },
                 "given": [
-                    ""
+                    "leather armor",
+                    "any simple weapon",
+                    "two daggers"
                 ],
                 "bg_equipment_allowed": true
             }
         },
         "features_at_class_level": {
-            "1": [ "" ],
-            "2": [ "" ],
-            "3": [ "" ],
-            "4": [ "" ],
-            "5": [ "" ],
-            "6": [ "" ],
-            "7": [ "" ],
-            "8": [ "" ],
-            "9": [ "" ],
-            "10": [ "" ],
-            "11": [ "" ],
-            "12": [ "" ],
-            "13": [ "" ],
-            "14": [ "" ],
-            "15": [ "" ],
-            "16": [ "" ],
-            "17": [ "" ],
-            "18": [ "" ],
-            "19": [ "" ],
-            "20": [ "" ]
+            "1": [ "spellcasting", "subclass_selection" ],
+            "2": [ "eldritch_invocations" ],
+            "3": [ "pact_boon" ],
+            "4": [ "ability_score_improvement" ],
+            "8": [ "ability_score_improvement" ],
+            "11": [ "mystic_arcanum" ],
+            "12": [ "ability_score_improvement" ],
+            "13": [ "mystic_arcanum" ],
+            "15": [ "mystic_arcanum" ],
+            "16": [ "ability_score_improvement" ],
+            "17": [ "mystic_arcanum" ],
+            "19": [ "ability_score_improvement" ],
+            "20": [ "eldritch_master" ]
         },
         "subclasses": {
-            "": {
-                "name": "",
+            "the_fiend": {
+                "name": "The Fiend",
                 "desc": [
-                    ""
+                    "You have made a pact with a fiend from the lower planes of existence, a being whose aims are evil, even if you strive against those aims. Such beings desire the corruption or destruction of all things, ultimately including you. Fiends powerful enough to forge a pact include demon lords such as Demogorgon, Orcus, Fraz’Urb-­‐‑luu, and Baphomet; archdevils such as Asmodeus, Dispater, Mephistopheles, and Belial; pit fiends and balors that are especially mighty; and ultroloths and other lords of the yugoloths."
                 ],
                 "features_at_class_level": {
-                    "3": [ "" ],
-                    "6": [ "" ],
-                    "10": [ "" ],
-                    "14": [ "" ]
+                    "1": [ "fiend_spell_list", "dark_ones_blessing" ],
+                    "6": [ "dark_ones_own_luck" ],
+                    "10": [ "fiendish_resilience" ],
+                    "14": [ "hurl_through_hell" ]
                 }
             }
         }
 
     },
     {
-        "index": "",
-        "name": "",
+        "index": "class_wizard",
+        "name": "Wizard",
         "desc": [
             ""
         ],
         "hit_points": {
-            "hit_dice": "",
-            "hit_points_first_level": [ "" ],
+            "hit_dice": "1d6",
+            "hit_points_first_level": 6,
             "hit_points_higher_levels": {
-                "roll": [ "" ],
-                "round": [ "" ]
+                "roll": "1d6",
+                "round": 4
             }
         },
         "proficiencies": {
-            "armor": [
-                ""
+            "armor_type": [
+                "none"
             ],
             "weapons": [
-                ""
+                "daggers",
+                "darts",
+                "slings",
+                "quarterstaffs",
+                "light crossbows"
             ],
             "saving_throws": [
                 ""
             ],
+            "tools": [ "none" ],
             "skills": {
                 "choose": {
                     "options": [
-                    ""
+                    "arcana",
+                    "history",
+                    "insight",
+                    "investigation",
+                    "medicine",
+                    "religion"
                     ],
                     "count": 2
                 }
@@ -977,254 +1339,61 @@
         },
         "equipment": {
             "starting_equipment": {
-                "options": 2,
-                "option_1": {
+                "choices": 3,
+                "choice_1": {
                     "choose": {
                         "options": [
-                            ""
+                            "a quarterstaff",
+                            "a dagger"
                         ],
                         "count": 1
                     }
                 },
-                "option_2": {
+                "choice_2": {
                     "choose": {
                         "options": [
-                            ""
+                            "a component pouch",
+                            "an arcane focus"
                         ],
                         "count": 1
                     }
                 },
-                "given": [
-                    ""
-                ],
-                "bg_equipment_allowed": true
-            }
-        },
-        "features_at_class_level": {
-            "1": [ "" ],
-            "2": [ "" ],
-            "3": [ "" ],
-            "4": [ "" ],
-            "5": [ "" ],
-            "6": [ "" ],
-            "7": [ "" ],
-            "8": [ "" ],
-            "9": [ "" ],
-            "10": [ "" ],
-            "11": [ "" ],
-            "12": [ "" ],
-            "13": [ "" ],
-            "14": [ "" ],
-            "15": [ "" ],
-            "16": [ "" ],
-            "17": [ "" ],
-            "18": [ "" ],
-            "19": [ "" ],
-            "20": [ "" ]
-        },
-        "subclasses": {
-            "": {
-                "name": "",
-                "desc": [
-                    ""
-                ],
-                "features_at_class_level": {
-                    "3": [ "" ],
-                    "6": [ "" ],
-                    "10": [ "" ],
-                    "14": [ "" ]
-                }
-            }
-        }
-
-    },
-    {
-        "index": "",
-        "name": "",
-        "desc": [
-            ""
-        ],
-        "hit_points": {
-            "hit_dice": "",
-            "hit_points_first_level": [ "" ],
-            "hit_points_higher_levels": {
-                "roll": [ "" ],
-                "round": [ "" ]
-            }
-        },
-        "proficiencies": {
-            "armor": [
-                ""
-            ],
-            "weapons": [
-                ""
-            ],
-            "saving_throws": [
-                ""
-            ],
-            "skills": {
-                "choose": {
-                    "options": [
-                    ""
-                    ],
-                    "count": 2
-                }
-            }
-        },
-        "equipment": {
-            "starting_equipment": {
-                "options": 2,
-                "option_1": {
+                "choice_3": {
                     "choose": {
                         "options": [
-                            ""
-                        ],
-                        "count": 1
-                    }
-                },
-                "option_2": {
-                    "choose": {
-                        "options": [
-                            ""
+                            "a scholar's pack",
+                            "an explorer's pack"
                         ],
                         "count": 1
                     }
                 },
                 "given": [
-                    ""
+                    "a spellbook"
                 ],
                 "bg_equipment_allowed": true
             }
         },
         "features_at_class_level": {
-            "1": [ "" ],
-            "2": [ "" ],
-            "3": [ "" ],
-            "4": [ "" ],
-            "5": [ "" ],
-            "6": [ "" ],
-            "7": [ "" ],
-            "8": [ "" ],
-            "9": [ "" ],
-            "10": [ "" ],
-            "11": [ "" ],
-            "12": [ "" ],
-            "13": [ "" ],
-            "14": [ "" ],
-            "15": [ "" ],
-            "16": [ "" ],
-            "17": [ "" ],
-            "18": [ "" ],
-            "19": [ "" ],
-            "20": [ "" ]
+            "1": [ "spellcasting", "arcane_recovery" ],
+            "2": [ "subclass_selection" ],
+            "4": [ "ability_score_improvement" ],
+            "8": [ "ability_score_improvement" ],
+            "12": [ "ability_score_improvement" ],
+            "16": [ "ability_score_improvement" ],
+            "19": [ "ability_score_improvement" ],
+            "20": [ "signature_spell" ]
         },
         "subclasses": {
-            "": {
-                "name": "",
+            "school_of_evocation": {
+                "name": "School of Evocation",
                 "desc": [
-                    ""
+                    "You focus your study on magic that creates powerful elemental effects such as bitter cold, searing flame, rolling thunder, crackling lightning, and burning acid. Some evokers find employment in military forces, serving as artillery to blast enemy armies from afar. Others use their spectacular power to protect the weak, while some seek their own gain as bandits, adventurers, or aspiring tyrants."
                 ],
                 "features_at_class_level": {
-                    "3": [ "" ],
-                    "6": [ "" ],
-                    "10": [ "" ],
-                    "14": [ "" ]
-                }
-            }
-        }
-
-    },
-    {
-        "index": "",
-        "name": "",
-        "desc": [
-            ""
-        ],
-        "hit_points": {
-            "hit_dice": "",
-            "hit_points_first_level": [ "" ],
-            "hit_points_higher_levels": {
-                "roll": [ "" ],
-                "round": [ "" ]
-            }
-        },
-        "proficiencies": {
-            "armor": [
-                ""
-            ],
-            "weapons": [
-                ""
-            ],
-            "saving_throws": [
-                ""
-            ],
-            "skills": {
-                "choose": {
-                    "options": [
-                    ""
-                    ],
-                    "count": 2
-                }
-            }
-        },
-        "equipment": {
-            "starting_equipment": {
-                "options": 2,
-                "option_1": {
-                    "choose": {
-                        "options": [
-                            ""
-                        ],
-                        "count": 1
-                    }
-                },
-                "option_2": {
-                    "choose": {
-                        "options": [
-                            ""
-                        ],
-                        "count": 1
-                    }
-                },
-                "given": [
-                    ""
-                ],
-                "bg_equipment_allowed": true
-            }
-        },
-        "features_at_class_level": {
-            "1": [ "" ],
-            "2": [ "" ],
-            "3": [ "" ],
-            "4": [ "" ],
-            "5": [ "" ],
-            "6": [ "" ],
-            "7": [ "" ],
-            "8": [ "" ],
-            "9": [ "" ],
-            "10": [ "" ],
-            "11": [ "" ],
-            "12": [ "" ],
-            "13": [ "" ],
-            "14": [ "" ],
-            "15": [ "" ],
-            "16": [ "" ],
-            "17": [ "" ],
-            "18": [ "" ],
-            "19": [ "" ],
-            "20": [ "" ]
-        },
-        "subclasses": {
-            "": {
-                "name": "",
-                "desc": [
-                    ""
-                ],
-                "features_at_class_level": {
-                    "3": [ "" ],
-                    "6": [ "" ],
-                    "10": [ "" ],
-                    "14": [ "" ]
+                    "2": [ "evocation_savant", "sculpt_spells" ],
+                    "6": [ "potent_cantrip" ],
+                    "10": [ "empowered_evocation" ],
+                    "14": [ "overchannel" ]
                 }
             }
         }

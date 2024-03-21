@@ -1,0 +1,262 @@
+[
+	{
+		"index": "armor_padded",
+		"name": "Padded Armor",
+		"armor_type": "light",
+		"price": {
+			"price-num": 5,
+			"units": "gold"
+		},
+		"armor_class": {
+			"base_ac": 11,
+			"ac_modifier": "dexterity_modifier",
+			"modifier_max": null
+		},
+		"strength_requirement": null,
+		"stealth_modifier": "disadvantage",
+		"weight": {
+			"weight-num": 8,
+			"units": "pounds"
+		}
+	},
+	{
+		"index": "armor_leather",
+		"name": "Leather Armor",
+		"armor_type": "light",
+		"price": {
+			"price-num": 10,
+			"units": "gold"
+		},
+		"armor_class": {
+			"base_ac": 11,
+			"ac_modifier": "dexterity",
+			"modifier_max": null
+		},
+		"strength_requirement": null,
+		"stealth_modifier": null,
+		"weight": {
+			"weight_num": 10,
+			"units": "pounds"
+		}
+	},
+	{
+		"index": "armor_studded_leather",
+		"name": "Studded Leather Armor",
+		"armor_type": "light",
+		"price": {
+			"price-num": 45,
+			"units": "gold"
+		},
+		"armor_class": {
+			"base_ac": 12,
+			"ac_modifier": "dexterity",
+			"modifier_max": null
+		},
+		"strength_requirement": null,
+		"stealth_modifier": null,
+		"weight": {
+			"weight_num": 13,
+			"units": "pounds"
+		}
+	},
+	{
+		"index": "armor_hide",
+		"name": "Hide Armor",
+		"armor_type": "medium",
+		"price": {
+			"price-num": 999,
+			"units": ""
+		},
+		"armor_class": {
+			"base_ac": 12,
+			"ac_modifier": "dexterity",
+			"modifier_max": 2
+		},
+		"strength_requirement": null,
+		"stealth_modifier": null,
+		"weight": {
+			"weight_num": 12,
+			"units": "pounds"
+		}
+	},
+	{
+		"index": "armor_chain_shirt",
+		"name": "Chain Shirt",
+		"armor_type": "medium",
+		"price": {
+			"price-num": 50,
+			"units": "gold"
+		},
+		"armor_class": {
+			"base_ac": 13,
+			"ac_modifier": "dexterity",
+			"modifier_max": 2
+		},
+		"strength_requirement": null,
+		"stealth_modifier": null,
+		"weight": {
+			"weight_num": 20,
+			"units": "pounds"
+		}
+	},
+	{
+		"index": "armor_scale_mail",
+		"name": "Scale Mail Armor",
+		"armor_type": "medium",
+		"price": {
+			"price-num": 50,
+			"units": "gold"
+		},
+		"armor_class": {
+			"base_ac": 14,
+			"ac_modifier": "dexterity",
+			"modifier_max": 2
+		},
+		"strength_requirement": null,
+		"stealth_modifier": "disadvantage",
+		"weight": {
+			"weight_num": 45,
+			"units": "pounds"
+		}
+	},
+	{
+		"index": "armor_breastplate",
+		"name": "Breastplate",
+		"armor_type": "medium",
+		"price": {
+			"price-num": 400,
+			"units": "gold"
+		},
+		"armor_class": {
+			"base_ac": 14,
+			"ac_modifier": "dexterity",
+			"modifier_max": 2
+		},
+		"strength_requirement": null,
+		"stealth_modifier": null,
+		"weight": {
+			"weight_num": 20,
+			"units": "pounds"
+		}
+	},
+	{
+		"index": "armor_half_plate",
+		"name": "Half Plate Armor",
+		"armor_type": "medium",
+		"price": {
+			"price-num": 750,
+			"units": "gold"
+		},
+		"armor_class": {
+			"base_ac": 15,
+			"ac_modifier": "dexterity",
+			"modifier_max": 2
+		},
+		"strength_requirement": null,
+		"stealth_modifier": "disadvantage",
+		"weight": {
+			"weight_num": 40,
+			"units": "pounds"
+		}
+	},
+	{
+		"index": "armor_ring_mail",
+		"name": "Ring Mail Armor",
+		"armor_type": "heavy",
+		"price": {
+			"price-num": 30,
+			"units": "gold"
+		},
+		"armor_class": {
+			"base_ac": 14,
+			"ac_modifier": null,
+			"modifier_max": null
+		},
+		"strength_requirement": null,
+		"stealth_modifier": "disadvantage",
+		"weight": {
+			"weight_num": 40,
+			"units": "pounds"
+		}
+	},
+	{
+		"index": "armor_chain_mail",
+		"name": "Chain Mail Armor",
+		"armor_type": "heavy",
+		"price": {
+			"price-num": 75,
+			"units": "gold"
+		},
+		"armor_class": {
+			"base_ac": 16,
+			"ac_modifier": null,
+			"modifier_max": null
+		},
+		"strength_requirement": 13,
+		"stealth_modifier": "disadvantage",
+		"weight": {
+			"weight_num": 55,
+			"units": "pounds"
+		}
+	},
+	{
+		"index": "armor_splint",
+		"name": "Splint Armor",
+		"armor_type": "heavy",
+		"price": {
+			"price-num": 200,
+			"units": "gold"
+		},
+		"armor_class": {
+			"base_ac": 17,
+			"ac_modifier": null,
+			"modifier_max": null
+		},
+		"strength_requirement": 15,
+		"stealth_modifier": "disadvantage",
+		"weight": {
+			"weight_num": 60,
+			"units": "pounds"
+		}
+	},
+	{
+		"index": "armor_plate",
+		"name": "Plate Armor",
+		"armor_type": "heavy",
+		"price": {
+			"price-num": 1500,
+			"units": "gold"
+		},
+		"armor_class": {
+			"base_ac": 18,
+			"ac_modifier": null,
+			"modifier_max": null
+		},
+		"strength_requirement": 15,
+		"stealth_modifier": "disadvantage",
+		"weight": {
+			"weight_num": 65,
+			"units": "pounds"
+		}
+	},
+	{
+		"index": "armor_wooden_shield",
+		"name": "Wooden Shield",
+		"armor_type": "shield",
+		"price": {
+			"price-num": 10,
+			"units": "gold"
+		},
+		"armor_class": {
+			"base_ac": 2,
+			"ac_modifier": null,
+			"modifier_max": null
+		},
+		"strength_requirement": null,
+		"stealth_modifier": null,
+		"weight": {
+			"weight_num": 6,
+			"units": "pounds"
+		}
+	}
+]

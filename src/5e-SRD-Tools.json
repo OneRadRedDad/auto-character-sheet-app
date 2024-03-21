@@ -1,0 +1,562 @@
+[
+    {
+        "index": "tool_alchemists_supplies",
+        "name": "Alchemist's Supplies",
+        "desc": [
+            ""
+        ],
+        "category": "artisans_tools",
+        "price": {
+			"price-num": 50,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 8,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_brewers_supplies",
+        "name": "Brewer's Supplies",
+        "desc": [
+            ""
+        ],
+        "category": "artisans_tools",
+        "price": {
+			"price-num": 20,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 9,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_calligraphers_supplies",
+        "name": "Calligrapher's Supplies",
+        "desc": [
+            ""
+        ],
+        "category": "artisans_tools",
+        "price": {
+			"price-num": 10,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 5,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_carpenters_tools",
+        "name": "Carpenter's Tools",
+        "desc": [
+            ""
+        ],
+        "category": "artisans_tools",
+        "price": {
+			"price-num": 8,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 6,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_cartographers_tools",
+        "name": "Cartographer's Tools",
+        "desc": [
+            ""
+        ],
+        "category": "artisans_tools",
+        "price": {
+			"price-num": 15,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 6,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_cobblers_tools",
+        "name": "Cobbler's Tools",
+        "desc": [
+            ""
+        ],
+        "category": "artisans_tools",
+        "price": {
+			"price-num": 5,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 5,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_cooks_utensils",
+        "name": "Cook's Utensils",
+        "desc": [
+            ""
+        ],
+        "category": "artisans_tools",
+        "price": {
+			"price-num": 1,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 8,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_glassblowers_tools",
+        "name": "Glassblower's Tools",
+        "desc": [
+            ""
+        ],
+        "category": "artisans_tools",
+        "price": {
+			"price-num": 30,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 5,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_jewelers_tools",
+        "name": "Jeweler's Tools",
+        "desc": [
+            ""
+        ],
+        "category": "artisans_tools",
+        "price": {
+			"price-num": 25,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_leatherworkers_tools",
+        "name": "LEatherworker's Tools",
+        "desc": [
+            ""
+        ],
+        "category": "artisans_tools",
+        "price": {
+			"price-num": 5,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 5,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_masons_tools",
+        "name": "Mason's Tools",
+        "desc": [
+            ""
+        ],
+        "category": "artisans_tools",
+        "price": {
+			"price-num": 10,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 8,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_painters_supplies",
+        "name": "Painter's Supplies",
+        "desc": [
+            ""
+        ],
+        "category": "artisans_tools",
+        "price": {
+			"price-num": 10,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 5,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_potters_tools",
+        "name": "Potter's Tools",
+        "desc": [
+            ""
+        ],
+        "category": "artisans_tools",
+        "price": {
+			"price-num": 10,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 3,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_smiths_tools",
+        "name": "Smith's Tools",
+        "desc": [
+            ""
+        ],
+        "category": "artisans_tools",
+        "price": {
+			"price-num": 20,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 8,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_tinkers_tools",
+        "name": "Tinker's Tools",
+        "desc": [
+            ""
+        ],
+        "category": "artisans_tools",
+        "price": {
+			"price-num": 16,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 12,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_weavers_tools",
+        "name": "Weaver's Tools",
+        "desc": [
+            ""
+        ],
+        "category": "artisans_tools",
+        "price": {
+			"price-num": 1,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 5,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_woodcarvers_tools",
+        "name": "Woodcarver's Tools",
+        "desc": [
+            ""
+        ],
+        "category": "artisans_tools",
+        "price": {
+			"price-num": 1,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 5,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_disguise_kit",
+        "name": "Disguise Kit",
+        "desc": [
+            "This pouch of cosmetics, hair dye, and small props lets you create disguises that change your physical appearance. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a visual disguise."
+        ],
+        "category": "artisans_tools",
+        "price": {
+			"price-num": 25,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 3,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_forgery_kit",
+        "name": "Forgery Kit",
+        "desc": [
+            "This small box contains a variety of papers and parchments, pens and inks, seals and sealing wax, gold and silver leaf, and other supplies necessary to create convincing forgeries of physical documents. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to create a physical forgery of a document."
+        ],
+        "category": "artisans_tools",
+        "price": {
+			"price-num": 15,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 5,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_dice_set",
+        "name": "Dice Set",
+        "desc": [
+            ""
+        ],
+        "category": "gaming_set",
+        "price": {
+			"price-num": 1,
+			"units": "silver"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_playing_card_set",
+        "name": "Playing Card Set",
+        "desc": [
+            ""
+        ],
+        "category": "",
+        "price": {
+			"price-num": 5,
+			"units": "silver"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_herbalism_kit",
+        "name": "Herbalism Kit",
+        "desc": [
+            "This kit contains a variety of instruments such as clippers, mortar and pestle, and pouches and vials used by herbalists to create remedies and potions. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to identify or apply herbs. Also, proficiency with this kit is required to create antitoxin and potions of healing."
+        ],
+        "category": "herbalism_kit",
+        "price": {
+			"price-num": 5,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 3,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_bagpipes",
+        "name": "Bagpipes",
+        "desc": [
+            ""
+        ],
+        "category": "musical_instrument",
+        "price": {
+			"price-num": 30,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 6,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_drum",
+        "name": "Drum",
+        "desc": [
+            ""
+        ],
+        "category": "musical_instrument",
+        "price": {
+			"price-num": 6,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 3,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_dulcimer",
+        "name": "Dulcimer",
+        "desc": [
+            ""
+        ],
+        "category": "musical_instrument",
+        "price": {
+			"price-num": 25,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 10,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_flute",
+        "name": "Flute",
+        "desc": [
+            ""
+        ],
+        "category": "musical_instrument",
+        "price": {
+			"price-num": 2,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_lute",
+        "name": "Lute",
+        "desc": [
+            ""
+        ],
+        "category": "musical_instrument",
+        "price": {
+			"price-num": 25,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_lyre",
+        "name": "Lyre",
+        "desc": [
+            ""
+        ],
+        "category": "musical_instrument",
+        "price": {
+			"price-num": 30,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_horn",
+        "name": "Horn",
+        "desc": [
+            ""
+        ],
+        "category": "musical_instrument",
+        "price": {
+			"price-num": 3,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_pan_flute",
+        "name": "Pan Flute",
+        "desc": [
+            ""
+        ],
+        "category": "musical_instrument",
+        "price": {
+			"price-num": 12,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_shawm",
+        "name": "Shawm",
+        "desc": [
+            ""
+        ],
+        "category": "musical_instrument",
+        "price": {
+			"price-num": 2,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_viol",
+        "name": "Viol",
+        "desc": [
+            ""
+        ],
+        "category": "musical_instrument",
+        "price": {
+			"price-num": 16,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 12,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_navigators_tools",
+        "name": "Navigator's Tools",
+        "desc": [
+            "This set of instruments is used for navigation at sea. Proficiency with navigator's tools lets you chart a ship's course and follow navigation charts. In addition, these tools allow you to add your proficiency bonus to any ability check you make to avoid getting lost at sea."
+        ],
+        "category": "navigators_tools",
+        "price": {
+			"price-num": 25,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_poisoners_kit",
+        "name": "Poisoner's Kit",
+        "desc": [
+            "A poisoner’s kit includes the vials, chemicals, and other equipment necessary for the creation of poisons. Proficiency with this kit lets you add your proficiency bonus to any ability checks you make to craft or use poisons."
+        ],
+        "category": "poisoners_kit",
+        "price": {
+			"price-num": 50,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "tool_thieves_tools",
+        "name": "Thieves' Tools",
+        "desc": [
+            "This set of tools includes a small file, a set of lock picks, a small mirror mounted on a metal handle, a set of narrow‑bladed scissors, and a pair of pliers. Proficiency with these tools lets you add your proficiency bonus to any ability checks you make to disarm traps or open locks."
+        ],
+        "category": "thieves_tools",
+        "price": {
+			"price-num": 25,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    }
+]

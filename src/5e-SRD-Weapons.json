@@ -1,0 +1,1165 @@
+[
+	{
+		"index": "weapon_club",
+		"name": "Club",
+		"price": {
+			"price_num": 1,
+			"units": "silver"
+		},
+		"damage": {
+			"damage_die": "1d4",
+			"damage_type": "bludgeoning"
+		},
+		"weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": false,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": false,
+			"is_two_handed": false,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_dagger",
+		"name": "Dagger",
+		"price": {
+			"price_num": 2,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d4",
+			"damage_type": "piercing"
+		},
+		"weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": false,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": true,
+			"is_heavy": false,
+			"is_two_handed": false,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": {
+			"ammunition_type": null,
+			"requires_loading": false,
+			"range": 20,
+			"range_disadvantage": 60,
+			"units": "feet"
+		}
+	},
+    {
+		"index": "weapon_greatclub",
+		"name": "Greatclub",
+		"price": {
+			"price_num": 2,
+			"units": "silver"
+		},
+		"damage": {
+			"damage_die": "1d8",
+			"damage_type": "bludgeoning"
+		},
+		"weight": {
+			"weight_num": 10,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": false,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": null,
+			"is_two_handed": true,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_handaxe",
+		"name": "Handaxe",
+		"price": {
+			"price_num": 5,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d6",
+			"damage_type": "slashing"
+		},
+		"weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": false,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": false,
+			"is_two_handed": false,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": {
+			"ammunition_type": null,
+			"requires_loading": false,
+			"range": 20,
+			"range_disadvantage": 60,
+			"units": "feet"
+		}
+	},
+    {
+		"index": "weapon_javelin",
+		"name": "Javelin",
+		"price": {
+			"price_num": 5,
+			"units": "silver"
+		},
+		"damage": {
+			"damage_die": "1d6",
+			"damage_type": "piercing"
+		},
+		"weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": false,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": null,
+			"is_two_handed": false,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": {
+			"ammunition_type": null,
+			"requires_loading": false,
+			"range": 30,
+			"range_disadvantage": 120,
+			"units": "feet"
+		}
+	},
+    {
+		"index": "weapon_light_hammer",
+		"name": "Light Hammer",
+		"price": {
+			"price_num": 2,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d4",
+			"damage_type": "bludgeoning"
+		},
+		"weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": false,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": false,
+			"is_two_handed": false,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": {
+			"ammunition_type": null,
+			"requires_loading": false,
+			"range": 20,
+			"range_disadvantage": 60,
+			"units": "feet"
+		}
+	},
+    {
+		"index": "weapon_mace",
+		"name": "Mace",
+		"price": {
+			"price_num": 5,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d6",
+			"damage_type": "bludgeoning"
+		},
+		"weight": {
+			"weight_num": 4,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": false,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": null,
+			"is_two_handed": false,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_quarterstaff",
+		"name": "Quarterstaff",
+		"price": {
+			"price_num": 2,
+			"units": "silver"
+		},
+		"damage": {
+			"damage_die": "1d6",
+			"damage_type": "bludgeoning"
+		},
+		"weight": {
+			"weight_num": 4,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": false,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": null,
+			"is_two_handed": false,
+			"versatility_die": "1d8",
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_sickle",
+		"name": "Sickle",
+		"price": {
+			"price_num": 1,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d4",
+			"damage_type": "slashing"
+		},
+		"weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": false,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": false,
+			"is_two_handed": false,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_spear",
+		"name": "Spear",
+		"price": {
+			"price_num": 1,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d6",
+			"damage_type": "piercing"
+		},
+		"weight": {
+			"weight_num": 3,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": false,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": null,
+			"is_two_handed": false,
+			"versatility_die": "1d8",
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": {
+			"ammunition_type": null,
+			"requires_loading": false,
+			"range": 20,
+			"range_disadvantage": 60,
+			"units": "feet"
+		}
+	},
+    {
+		"index": "weapon_light_crossbow",
+		"name": "Light Crossbow",
+		"price": {
+			"price_num": 25,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d8",
+			"damage_type": "piercing"
+		},
+		"weight": {
+			"weight_num": 5,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": false,
+			"is_ranged": true
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": null,
+			"is_two_handed": true,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": {
+			"ammunition_type": "gear_ammunition_bolt",
+			"requires_loading": true,
+			"range": 80,
+			"range_disadvantage": 320,
+			"units": "feet"
+		}
+	},
+    {
+		"index": "weapon_dart",
+		"name": "Dart",
+		"price": {
+			"price_num": 5,
+			"units": "copper"
+		},
+		"damage": {
+			"damage_die": "1d4",
+			"damage_type": "piercing"
+		},
+		"weight": {
+			"weight_num": 0.25,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": false,
+			"is_ranged": true
+		},
+		"minor_properties": {
+			"is_finesse": true,
+			"is_heavy": null,
+			"is_two_handed": false,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": {
+			"ammunition_type": null,
+			"requires_loading": false,
+			"range": 20,
+			"range_disadvantage": 60,
+			"units": "feet"
+		}
+	},
+    {
+		"index": "weapon_shortbow",
+		"name": "Shortbow",
+		"price": {
+			"price_num": 25,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d6",
+			"damage_type": "piercing"
+		},
+		"weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": false,
+			"is_ranged": true
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": null,
+			"is_two_handed": true,
+			"versatility_die":null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": {
+			"ammunition_type": "gear_ammunition_arrow",
+			"requires_loading": false,
+			"range": 80,
+			"range_disadvantage": 320,
+			"units": "feet"
+		}
+	},
+    {
+		"index": "weapon_sling",
+		"name": "Sling",
+		"price": {
+			"price_num": 1,
+			"units": "silver"
+		},
+		"damage": {
+			"damage_die": "1d4",
+			"damage_type": "bludgeoning"
+		},
+		"weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": false,
+			"is_ranged": true
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": null,
+			"is_two_handed": false,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": {
+			"ammunition_type": "gear_ammunition_sling",
+			"requires_loading": false,
+			"range": 30,
+			"range_disadvantage": 120,
+			"units": "feet"
+		}
+	},
+    {
+		"index": "weapon_battleaxe",
+		"name": "Battleaxe",
+		"price": {
+			"price_num": 10,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d8",
+			"damage_type": "slashing"
+		},
+		"weight": {
+			"weight_num": 4,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": null,
+			"is_two_handed": false,
+			"versatility_die": "1d10",
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_flail",
+		"name": "Flail",
+		"price": {
+			"price_num": 10,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d8",
+			"damage_type": "bludgeoning"
+		},
+		"weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": null,
+			"is_two_handed": false,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_glaive",
+		"name": "Glaive",
+		"price": {
+			"price_num": 20,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d10",
+			"damage_type": "slashing"
+		},
+		"weight": {
+			"weight_num": 6,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": true,
+			"is_two_handed": true,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": true
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_greataxe",
+		"name": "Greataxe",
+		"price": {
+			"price_num": 30,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d12",
+			"damage_type": "slashing"
+		},
+		"weight": {
+			"weight_num": 7,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": true,
+			"is_two_handed": true,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_greatsword",
+		"name": "Greatsword",
+		"price": {
+			"price_num": 50,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "2d6",
+			"damage_type": "slashing"
+		},
+		"weight": {
+			"weight_num": 6,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": true,
+			"is_two_handed": true,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_halberd",
+		"name": "Halberd",
+		"price": {
+			"price_num": 20,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d10",
+			"damage_type": "slashing"
+		},
+		"weight": {
+			"weight_num": 6,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": true,
+			"is_two_handed": true,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": true
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_lance",
+		"name": "Lance",
+		"price": {
+			"price_num": 10,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d12",
+			"damage_type": "piercing"
+		},
+		"weight": {
+			"weight_num": 6,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": null,
+			"is_two_handed": false,
+			"versatility_die": null,
+			"is_special": true,
+			"is_reach": true
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_longsword",
+		"name": "Longsword",
+		"price": {
+			"price_num": 15,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d8",
+			"damage_type": "slashing"
+		},
+		"weight": {
+			"weight_num": 3,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": null,
+			"is_two_handed": false,
+			"versatility_die": "1d10",
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_maul",
+		"name": "Maul",
+		"price": {
+			"price_num": 10,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "2d6",
+			"damage_type": "bludgeoning"
+		},
+		"weight": {
+			"weight_num": 10,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": true,
+			"is_two_handed": true,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_morningstar",
+		"name": "Morningstar",
+		"price": {
+			"price_num": 15,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d8",
+			"damage_type": "piercing"
+		},
+		"weight": {
+			"weight_num": 4,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": null,
+			"is_two_handed": false,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_pike",
+		"name": "Pike",
+		"price": {
+			"price_num": 5,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d10",
+			"damage_type": "piercing"
+		},
+		"weight": {
+			"weight_num": 18   ,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": true,
+			"is_two_handed": true,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": true
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_rapier",
+		"name": "Rapier",
+		"price": {
+			"price_num": 25,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d8",
+			"damage_type": "piercing"
+		},
+		"weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": true,
+			"is_heavy": null,
+			"is_two_handed": false,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_scimitar",
+		"name": "Scimitar",
+		"price": {
+			"price_num": 25,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d6",
+			"damage_type": "slashing"
+		},
+		"weight": {
+			"weight_num": 3,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": true,
+			"is_heavy": false,
+			"is_two_handed": false,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_shortsword",
+		"name": "Shortsword",
+		"price": {
+			"price_num": 10,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d6",
+			"damage_type": "piercing"
+		},
+		"weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": true,
+			"is_heavy": false,
+			"is_two_handed": false,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_trident",
+		"name": "Trident",
+		"price": {
+			"price_num": 5,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d6",
+			"damage_type": "piercing"
+		},
+		"weight": {
+			"weight_num": 4,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": null,
+			"is_two_handed": false,
+			"versatility_die": "1d8",
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": {
+			"ammunition_type": null,
+			"requires_loading": false,
+			"range": 20,
+			"range_disadvantage": 60,
+			"units": "feet"
+		}
+	},
+    {
+		"index": "weapon_war_pick",
+		"name": "War Pick",
+		"price": {
+			"price_num": 5,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d8",
+			"damage_type": "piercing"
+		},
+		"weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": null,
+			"is_two_handed": false,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_warhammer",
+		"name": "Warhammer",
+		"price": {
+			"price_num": 15,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d8",
+			"damage_type": "bludgeoning"
+		},
+		"weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": false,
+			"is_two_handed": false,
+			"versatility_die": "1d10",
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_whip",
+		"name": "Whip",
+		"price": {
+			"price_num": 2,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d4",
+			"damage_type": "slashing"
+		},
+		"weight": {
+			"weight_num": 3,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": false
+		},
+		"minor_properties": {
+			"is_finesse": true,
+			"is_heavy": null,
+			"is_two_handed": false,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": true
+		},
+		"range_properties": null
+	},
+    {
+		"index": "weapon_blowgun",
+		"name": "Blowgun",
+		"price": {
+			"price_num": 10,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d1",
+			"damage_type": "piercing"
+		},
+		"weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": true
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": null,
+			"is_two_handed": false,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": {
+			"ammunition_type": "gear_ammunition_needle",
+			"requires_loading": true,
+			"range": 25,
+			"range_disadvantage": 100,
+			"units": "feet"
+		}
+	},
+    {
+		"index": "weapon_hand_crossbow",
+		"name": "Hand Crossbow",
+		"price": {
+			"price_num": 75,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d6",
+			"damage_type": "piercing"
+		},
+		"weight": {
+			"weight_num": 3,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": true
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": false,
+			"is_two_handed": false,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": {
+			"ammunition_type": "gear_ammunition_bolt",
+			"requires_loading": true,
+			"range": 30,
+			"range_disadvantage": 120,
+			"units": "feet"
+		}
+	},
+    {
+		"index": "weapon_heavy_crossbow",
+		"name": "Heavy Crossbow",
+		"price": {
+			"price_num": 50,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d10",
+			"damage_type": "piercing"
+		},
+		"weight": {
+			"weight_num": 18,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": true
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": true,
+			"is_two_handed": true,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": {
+			"ammunition_type": "gear_ammunition_bolt",
+			"requires_loading": true,
+			"range": 100,
+			"range_disadvantage": 400,
+			"units": "feet"
+		}
+	},
+    {
+		"index": "weapon_longbow",
+		"name": "Longbow",
+		"price": {
+			"price_num": 50,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "1d8",
+			"damage_type": "piercing"
+		},
+		"weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": true
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": true,
+			"is_two_handed": true,
+			"versatility_die": null,
+			"is_special": false,
+			"is_reach": false
+		},
+		"range_properties": {
+			"ammunition_type": "gear_ammunition_arrow",
+			"requires_loading": false,
+			"range": 150,
+			"range_disadvantage": 600,
+			"units": "feet"
+		}
+	},
+    {
+		"index": "weapon_net",
+		"name": "Net",
+		"price": {
+			"price_num": 1,
+			"units": "gold"
+		},
+		"damage": {
+			"damage_die": "0d4",
+			"damage_type": "typeless"
+		},
+		"weight": {
+			"weight_num": 3,
+			"units": "pounds"
+		},
+		"major_properties": {
+			"is_martial": true,
+			"is_ranged": true
+		},
+		"minor_properties": {
+			"is_finesse": false,
+			"is_heavy": null,
+			"is_two_handed": false,
+			"versatility_die": null,
+			"is_special": true,
+			"is_reach": false
+		},
+		"range_properties": {
+			"ammunition_type": null,
+			"requires_loading": false,
+			"range": 5,
+			"range_disadvantage": 15,
+			"units": "feet"
+		}
+	}
+]

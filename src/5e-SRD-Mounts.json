@@ -1,0 +1,182 @@
+[
+    {
+        "index": "mount_camel",
+        "name": "Camel",
+        "desc": [
+            ""
+        ],
+        "category": "mount_ground",
+        "price": {
+            "price_num": 50,
+            "units": "gold"
+        },
+        "speed": {
+            "speed_num": 50,
+            "units": "feet"
+        },
+        "carrying_capacity": {
+            "capacity_num": 480,
+            "units": "pounds"
+        }
+    },
+    {
+        "index": "mount_donkey",
+        "name": "Donkey",
+        "desc": [
+            ""
+        ],
+        "category": "mount_ground",
+        "price": {
+            "price_num": 8,
+            "units": "gold"
+        },
+        "speed": {
+            "speed_num": 40,
+            "units": "feet"
+        },
+        "carrying_capacity": {
+            "capacity_num": 420,
+            "units": "pounds"
+        }
+    },
+    {
+        "index": "mount_mule",
+        "name": "Mule",
+        "desc": [
+            ""
+        ],
+        "category": "mount_ground",
+        "price": {
+            "price_num": 8,
+            "units": "gold"
+        },
+        "speed": {
+            "speed_num": 40,
+            "units": "feet"
+        },
+        "carrying_capacity": {
+            "capacity_num": 420,
+            "units": "pounds"
+        }
+    },
+    {
+        "index": "mount_elephant",
+        "name": "Elephant",
+        "desc": [
+            ""
+        ],
+        "category": "mount_ground",
+        "price": {
+            "price_num": 200,
+            "units": "gold"
+        },
+        "speed": {
+            "speed_num": 40,
+            "units": "feet"
+        },
+        "carrying_capacity": {
+            "capacity_num": 1320,
+            "units": "pounds"
+        }
+    },
+    {
+        "index": "mount_horse_draft",
+        "name": "Draft Horse",
+        "desc": [
+            "A large horse bred specifically for pulling heavy loads."
+        ],
+        "category": "mount_ground",
+        "price": {
+            "price_num": 50,
+            "units": "gold"
+        },
+        "speed": {
+            "speed_num": 40,
+            "units": "feet"
+        },
+        "carrying_capacity": {
+            "capacity_num": 540,
+            "units": "pounds"
+        }
+    },
+    {
+        "index": "mount_horse_riding",
+        "name": "Riding Horse",
+        "desc": [
+            "A horse bred and trained specifically for carrying a rider at speed."
+        ],
+        "category": "mount_ground",
+        "price": {
+            "price_num": 75,
+            "units": "gold"
+        },
+        "speed": {
+            "speed_num": 60,
+            "units": "feet"
+        },
+        "carrying_capacity": {
+            "capacity_num": 480,
+            "units": "pounds"
+        }
+    },
+    {
+        "index": "mount_mastiff",
+        "name": "Mastiff",
+        "desc": [
+            "A large dog."
+        ],
+        "category": "mount_ground",
+        "price": {
+            "price_num": 25,
+            "units": "gold"
+        },
+        "speed": {
+            "speed_num": 40,
+            "units": "feet"
+        },
+        "carrying_capacity": {
+            "capacity_num": 195,
+            "units": "pounds"
+        }
+    },
+    {
+        "index": "mount_pony",
+        "name": "Pony",
+        "desc": [
+            "A small horse."
+        ],
+        "category": "mount_ground",
+        "price": {
+            "price_num": 30,
+            "units": "gold"
+        },
+        "speed": {
+            "speed_num": 40,
+            "units": "feet"
+        },
+        "carrying_capacity": {
+            "capacity_num": 225,
+            "units": "pounds"
+        }
+    },
+    {
+        "index": "mount_warhorse",
+        "name": "Warhorse",
+        "desc": [
+            "A large horse bred and trained to support an armored rider and to perform in combat."
+        ],
+        "category": "mount_ground",
+        "price": {
+            "price_num": 400,
+            "units": "gold"
+        },
+        "speed": {
+            "speed_num": 60,
+            "units": "feet"
+        },
+        "carrying_capacity": {
+            "capacity_num": 540,
+            "units": "pounds"
+        }
+    }
+]

@@ -1,0 +1,1736 @@
+[
+    {
+        "index": "gear_abacus",
+        "name": "Abacus",
+        "desc": [
+            ""
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_acid_vial",
+        "name": "Acid (Vial)",
+        "desc": [
+            "As an action, you can splash the contents of this vial onto a creature within 5 feet of you or throw the vial up to 20 feet, shattering it on impact. In either case, make a ranged attack against a creature or object, treating the acid as an improvised weapon. On a hit, the target takes 2d6 acid damage."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 25,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_alchemists_fire_flask",
+        "name": "Alchemist's Fire (Flask)",
+        "desc": [
+            "This sticky, adhesive fluid ignites when exposed to air. As an action, you can throw this flask up to 20 feet, shattering it on impact. Make a ranged attack against a creature or object, treating the alchemist's fire as an improvised weapon. On a hit, the target takes 1d4 fire damage at the start of each of its turns. A creature can end this damage by using its action to make a DC 10 Dexterity check to extinguish the flames."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 50,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_ammunition_arrow",
+        "name": "Arrows",
+        "desc": [
+            ""
+        ],
+        "gear_type": "ammunition",
+        "count": 20,
+        "price": {
+			"price-num": 1,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_ammunition_needle",
+        "name": "Blowgun Needles",
+        "desc": [
+            ""
+        ],
+        "gear_type": "ammunition",
+        "count": 50,
+        "price": {
+			"price-num": 1,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_ammunition_bolt",
+        "name": "Crossbow Bolts",
+        "desc": [
+            ""
+        ],
+        "gear_type": "ammunition",
+        "count": 20,
+        "price": {
+			"price-num": 1,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 1.5,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_ammunition_sling",
+        "name": "Sling Bullets",
+        "desc": [
+            ""
+        ],
+        "gear_type": "ammunition",
+        "count": 20,
+        "price": {
+			"price-num": 4,
+			"units": "copper"
+		},
+        "weight": {
+			"weight_num": 1.5,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_antitoxin_vial",
+        "name": "Antitoxin (Vial)",
+        "desc": [
+            "A creature that drinks this vial of liquid gains advantage on saving throws against poison for 1 hour. It confers no benefit to undead or constructs."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 50,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_arcane_focus_crystal",
+        "name": "Crystal (Arcane Focus)",
+        "desc": [
+            "An arcane focus is a special item—an orb, a crystal, a rod, a specially constructed staff, a wand-­‐‑like length of wood, or some similar item—designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus."
+        ],
+        "gear_type": "arcane_focus",
+        "count": 1,
+        "price": {
+			"price-num": 10,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_arcane_focus_orb",
+        "name": "Orb (Arcane Focus)",
+        "desc": [
+            "An arcane focus is a special item—an orb, a crystal, a rod, a specially constructed staff, a wand-­‐‑like length of wood, or some similar item—designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus."
+        ],
+        "gear_type": "arcane_focus",
+        "count": 1,
+        "price": {
+			"price-num": 20,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 3,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_arcane_focus_rod",
+        "name": "Rod (Arcane Focus)",
+        "desc": [
+            "An arcane focus is a special item—an orb, a crystal, a rod, a specially constructed staff, a wand-­‐‑like length of wood, or some similar item—designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus."
+        ],
+        "gear_type": "arcane_focus",
+        "count": 1,
+        "price": {
+			"price-num": 10,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_arcane_focus_staff",
+        "name": "Staff (Arcane Focus)",
+        "desc": [
+            "An arcane focus is a special item—an orb, a crystal, a rod, a specially constructed staff, a wand-­‐‑like length of wood, or some similar item—designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus."
+        ],
+        "gear_type": "arcane_focus",
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 4,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_arcane_focus_wand",
+        "name": "Wand (Arcane Focus)",
+        "desc": [
+            "An arcane focus is a special item—an orb, a crystal, a rod, a specially constructed staff, a wand-­‐‑like length of wood, or some similar item—designed to channel the power of arcane spells. A sorcerer, warlock, or wizard can use such an item as a spellcasting focus."
+        ],
+        "gear_type": "arcane_focus",
+        "count": 1,
+        "price": {
+			"price-num": 10,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_backpack",
+        "name": "Backpack",
+        "desc": [
+            "A leather backpack with approximately 1 cubic foot of storage space. Can hold up to 30 pounds."
+        ],
+        "gear_type": "container",
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 5,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_ball_bearings",
+        "name": "Ball Bearings (bag)",
+        "desc": [
+            "As an action, you can spill these tiny metal balls from their pouch to cover a level, square area that is 10 feet on a side. A creature moving across the covered area must succeed on a DC 10 Dexterity saving throw or fall prone. A creature moving through the area at half speed doesn’t need to make the save."
+        ],
+        "gear_type": null,
+        "count": 1000,
+        "price": {
+			"price-num": 1,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_barrel",
+        "name": "Barrel",
+        "desc": [
+            "A wooden, banded barrel. Can hold 40 gallons of a liquid, or approximately 4 cubic feet of a solid object."
+        ],
+        "gear_type": "container",
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 70,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_basket",
+        "name": "Basket",
+        "desc": [
+            "A large woven basket. Has 2 cubic feet of storage space and can hold about 40 pounds of gear."
+        ],
+        "gear_type": "container",
+        "count": 1,
+        "price": {
+			"price-num": 4,
+			"units": "silver"
+		},
+        "weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_bedroll",
+        "name": "Bedroll",
+        "desc": [
+            ""
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 1,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 7,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_bell",
+        "name": "Bell",
+        "desc": [
+            ""
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 1,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_blanket",
+        "name": "Blanket",
+        "desc": [
+            ""
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "silver"
+		},
+        "weight": {
+			"weight_num": 3,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_block_tackle",
+        "name": "Block and Tackle",
+        "desc": [
+            "A set of pulleys with a cable threaded through them and a hook to attach to objects, a block and tackle allows you to hoist up to four times the weight you can normally lift."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 1,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 5,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_book",
+        "name": "Book",
+        "desc": [
+            "A book might contain poetry, historical accounts, information pertaining to a particular field of lore, diagrams and notes on gnomish contraptions, or just about anything else that can be represented using text or pictures. A book of spells is a spellbook"
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 25,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 5,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_glass_bottle",
+        "name": "Bottle (Glass)",
+        "desc": [
+            "A large glass bottle. Can hold approximately 1.5 pints (24 fluid ounces) of liquid."
+        ],
+        "gear_type": "container",
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_bucket",
+        "name": "Bucket",
+        "desc": [
+        "A medium wooden bucket. Can hold about 3 gallons of liquid, or 0.5 cubic feet of solid items."
+        ],
+        "gear_type": "container",
+        "count": 1,
+        "price": {
+            "price-num": 5,
+            "units": "copper"
+        },
+        "weight": {
+            "weight_num": 2,
+            "units": "pounds"
+        }
+    },
+    {
+        "index": "gear_caltrops",
+        "name": "Caltrops (Bag)",
+        "desc": [
+            "As an action, you can spread a bag of caltrops to cover a square area that is 5 feet on a side. Any creature that enters the area must succeed on a DC 15 Dexterity saving throw or stop moving this turn and take 1 piercing damage. Taking this damage reduces the creature’s walking speed by 10 feet until the creature regains at least 1 hit point. A creature moving through the area at half speed doesn’t need to make the save."
+        ],
+        "gear_type": null,
+        "count": 20,
+        "price": {
+            "price-num": 1,
+            "units": "gold"
+        },
+        "weight": {
+            "weight_num": 2,
+            "units": "pounds"
+        }
+    },
+    {
+        "index": "gear_candle",
+        "name": "Candle",
+        "desc": [
+            "For 1 hour, a candle sheds bright light in a 5-­foot radius and dim light for an additional 5 feet."
+        ],
+        "gear_type": "light_source",
+        "count": 1,
+        "price": {
+			"price-num": 1,
+			"units": "copper"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_case_crossbow_bolt",
+        "name": "Crossbow Bolt Case",
+        "desc": [
+            "This wooden case can hold up to twenty crossbow bolts."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 1,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_case_map_scroll",
+        "name": "Map or Scroll Case",
+        "desc": [
+            "This cylindrical leather case can hold up to ten rolled-­up sheets of paper or five rolled‑up sheets of parchment."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 1,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_chain",
+        "name": "Chain (feet [length])",
+        "desc": [
+            "A chain has 10 hit points. It can be burst with a successful DC 20 Strength check."
+        ],
+        "gear_type": null,
+        "count": 10,
+        "price": {
+			"price-num": 5,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 10,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_chalk",
+        "name": "Chalk",
+        "desc": [
+            "A single piece of chalk."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 1,
+			"units": "copper"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_chest",
+        "name": "Chest",
+        "desc": [
+            "A wooden chest. Has approximately 12 cubic feet of space and can hold up to 300 pounds of gear."
+        ],
+        "gear_type": "container",
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 25,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_climbers_kit",
+        "name": "Climber's Kit",
+        "desc": [
+            "A climber’s kit includes special pitons, boot tips, gloves, and a harness. You can use the climber’s kit as an action to anchor yourself; when you do, you can’t fall more than 25 feet from the point where you anchored yourself, and you can’t climb more than 25 feet away from that point without undoing the anchor."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 25,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 12,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_clothes_common",
+        "name": "Common Clothes",
+        "desc": [
+            ""
+        ],
+        "gear_type": "clothing",
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "silver"
+		},
+        "weight": {
+			"weight_num": 3,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_clothes_costume",
+        "name": "Costume Clothes",
+        "desc": [
+            ""
+        ],
+        "gear_type": "clothing",
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 4,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_clothes_fine",
+        "name": "Fine Clothes",
+        "desc": [
+            ""
+        ],
+        "gear_type": "clothing",
+        "count": 1,
+        "price": {
+			"price-num": 15,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 6,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_clothes_travelers",
+        "name": "Traveler's Clothes",
+        "desc": [
+            ""
+        ],
+        "gear_type": "clothing",
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 4,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_component_pouch",
+        "name": "Component Pouch",
+        "desc": [
+            "A component pouch is a small, watertight leather belt pouch that has compartments to hold all the material components and other special items you need to cast your spells, except for those components that have a specific cost (as indicated in a spell's description)."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 25,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_crowbar",
+        "name": "Crowbar",
+        "desc": [
+            "Using a crowbar grants advantage to Strength checks where the crowbar’s leverage can be applied"
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 5,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_druidic_focus_mistletoe_sprig",
+        "name": "Sprig of Mistletoe (Druidic Focus)",
+        "desc": [
+            "A druidic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or a totem object incorporating feathers, fur, bones, and teeth from sacred animals. A druid can use such an object as a spellcasting focus."
+        ],
+        "gear_type": "druidic_focus",
+        "count": 1,
+        "price": {
+			"price-num": 1,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_druidic_focus_totem",
+        "name": "Totem (Druidic Focus)",
+        "desc": [
+            "A druidic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or a totem object incorporating feathers, fur, bones, and teeth from sacred animals. A druid can use such an object as a spellcasting focus."
+        ],
+        "gear_type": "druidic_focus",
+        "count": 1,
+        "price": {
+			"price-num": 1,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_druidic_focus_wooden_staff",
+        "name": "Wooden Staff (Druidic Focus)",
+        "desc": [
+            "A druidic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or a totem object incorporating feathers, fur, bones, and teeth from sacred animals. A druid can use such an object as a spellcasting focus."
+        ],
+        "gear_type": "druidic_focus",
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 4,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_druidic_focus_yew_wand",
+        "name": "Yew Wand (Druidic Focus)",
+        "desc": [
+            "A druidic focus might be a sprig of mistletoe or holly, a wand or scepter made of yew or another special wood, a staff drawn whole out of a living tree, or a totem object incorporating feathers, fur, bones, and teeth from sacred animals. A druid can use such an object as a spellcasting focus."
+        ],
+        "gear_type": "druidic_focus",
+        "count": 1,
+        "price": {
+			"price-num": 10,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_fishing_tackle",
+        "name": "Fishing Tackle",
+        "desc": [
+            "This kit includes a wooden rod, silken line, corkwood bobbers, steel hooks, lead sinkers, velvet lures, and narrow netting."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 1,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 4,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_flask",
+        "name": "Flask",
+        "desc": [
+            "A large flask. Holds approximately 1 pint (16 fluid ounces) of liquid."
+        ],
+        "gear_type": "container",
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "copper"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_tankard",
+        "name": "Tankard",
+        "desc": [
+            "A tankard. Holds approximately 1 pint (16 fluid ounces) of liquid."
+        ],
+        "gear_type": "container",
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "copper"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_grappling_hook",
+        "name": "Grappling Hook",
+        "desc": [
+            ""
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 4,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_hammer",
+        "name": "Hammer",
+        "desc": [
+            "A large hammer for carpentry, blacksmithing, or a similar trade."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 1,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 3,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_sledgehammer",
+        "name": "Sledgehammer",
+        "desc": [
+            "A two-handed sledgehammer with a long handle, for driving posts or working large pieces of metal."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 10,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_healers_kit",
+        "name": "Healer's Kit",
+        "desc": [
+            "This kit is a leather pouch containing bandages, salves, and splints. The kit has ten uses. As an action, you can expend one use of the kit to stabilize a creature that has 0 hit points, without needing to make a Wisdom (Medicine) check."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 3,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_holy_symbol_amulet",
+        "name": "Amulet (Holy Symbol)",
+        "desc": [
+            "A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."
+        ],
+        "gear_type": "holy_symbol",
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_holy_symbol_emblem",
+        "name": "Emblem (Holy Symbol)",
+        "desc": [
+            "A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."
+        ],
+        "gear_type": "holy_symbol",
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_holy_symbol_reliquary",
+        "name": "Reliquary (Holy Symbol)",
+        "desc": [
+            "A holy symbol is a representation of a god or pantheon. It might be an amulet depicting a symbol representing a deity, the same symbol carefully engraved or inlaid as an emblem on a shield, or a tiny box holding a fragment of a sacred relic. A cleric or paladin can use a holy symbol as a spellcasting focus. To use the symbol in this way, the caster must hold it in hand, wear it visibly, or bear it on a shield."
+        ],
+        "gear_type": "holy_symbol",
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_holy_water_flask",
+        "name": "Holy Water (Flask)",
+        "desc": [
+            "As an action, you can splash the contents of this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. In either case, make a ranged attack against a target creature, treating the holy water as an improvised weapon. If the target is a fiend or undead, it takes 2d6 radiant damage. A cleric or paladin may create holy water by performing a special ritual. The ritual takes 1 hour to perform, uses 25 gp worth of powdered silver, and requires the caster to expend a 1st-­‐‑level spell slot."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 25,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_hourglass",
+        "name": "Hourglass",
+        "desc": [
+            ""
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 25,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_hunting_trap",
+        "name": "Hunting Trap",
+        "desc": [
+            "When you use your action to set it, this trap forms a saw-­toothed steel ring that snaps shut when a creature steps on a pressure plate in the center. The trap is affixed by a heavy chain to an immobile object, such as a tree or a spike driven into the ground. A creature that steps on the plate must succeed on a DC 13 Dexterity saving throw or take 1d4 piercing damage and stop moving. Thereafter, until the creature breaks free of the trap, its movement is limited by the length of the chain (typically 3 feet long). A creature can use its action to make a DC 13 Strength check, freeing itself or another creature within its reach on a success. Each failed check deals 1 piercing damage to the trapped creature."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 25,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_ink_ounce_bottle",
+        "name": "Ink (1-ounce bottle)",
+        "desc": [
+            ""
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 10,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_ink_pen",
+        "name": "Ink Pen",
+        "desc": [
+            ""
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "copper"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_jug",
+        "name": "Jug",
+        "desc": [
+            "A medium-sized jug. Can hold 1 gallon of liquid."
+        ],
+        "gear_type": "container",
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "copper"
+		},
+        "weight": {
+			"weight_num": 4,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_pitcher",
+        "name": "Pitcher",
+        "desc": [
+            "A medium-sized pitcher. Can hold 1 gallon of liquid."
+        ],
+        "gear_type": "container",
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "copper"
+		},
+        "weight": {
+			"weight_num": 4,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_ladder_ten_foot",
+        "name": "Ten-Foot Ladder",
+        "desc": [
+            "A 10-foot-long wooden ladder."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 1,
+			"units": "silver"
+		},
+        "weight": {
+			"weight_num": 25,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_lamp",
+        "name": "Lamp",
+        "desc": [
+            "A lamp casts bright light in a 15-­foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil."
+        ],
+        "gear_type": "light_source",
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "silver"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_lantern_bullseye",
+        "name": "Bullseye Lantern",
+        "desc": [
+            "A bullseye lantern casts bright light in a 60-­foot cone and dim light for an additional 60 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil."
+        ],
+        "gear_type": "light_source",
+        "count": 1,
+        "price": {
+			"price-num": 10,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_lantern_hooded",
+        "name": "Hooded Lantern",
+        "desc": [
+            "A hooded lantern casts bright light in a 30-­foot radius and dim light for an additional 30 feet. Once lit, it burns for 6 hours on a flask (1 pint) of oil. As an action, you can lower the hood, reducing the light to dim light in a 5-­foot radius."
+        ],
+        "gear_type": "light_source",
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_lock",
+        "name": "Lock",
+        "desc": [
+            "A key is provided with the lock. Without the key, a creature proficient with thieves’ tools can pick this lock with a successful DC 15 Dexterity check. Your GM may decide that better locks are available for higher prices."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 10,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_magnifying_glass",
+        "name": "Magnifying Glass",
+        "desc": [
+            "This lens allows a closer look at small objects. It is also useful as a substitute for flint and steel when starting fires. Lighting a fire with a magnifying glass requires light as bright as sunlight to focus, tinder to ignite, and about 5 minutes for the fire to ignite. A magnifying glass grants advantage on any ability check made to appraise or inspect an item that is small or highly detailed."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 100,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_manacles",
+        "name": "Manacles",
+        "desc": [
+            "These metal restraints can bind a Small or Medium creature. Escaping the manacles requires a successful DC 20 Dexterity check. Breaking them requires a successful DC 20 Strength check. Each set of manacles comes with one key. Without the key, a creature proficient with thieves’ tools can pick the manacles’ lock with a successful DC 15 Dexterity check. Manacles have 15 hit points."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 6,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_mess_kit",
+        "name": "Mess Kit",
+        "desc": [
+            "This tin box contains a cup and simple cutlery. The box clamps together, and one side can be used as a cooking pan and the other as a plate or shallow bowl."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "silver"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_mirror_steel",
+        "name": "Steel Mirror",
+        "desc": [
+            ""
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 0.5,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_oil_flask",
+        "name": "Oil (Flask)",
+        "desc": [
+            "Oil usually comes in a clay flask that holds 1 pint. As an action, you can splash the oil in this flask onto a creature within 5 feet of you or throw it up to 20 feet, shattering it on impact. Make a ranged attack against a target creature or object, treating the oil as an improvised weapon. On a hit, the target is covered in oil. If the target takes any fire damage before the oil dries (after 1 minute), the target takes an additional 5 fire damage from the burning oil. You can also pour a flask of oil on the ground to cover a 5‐‑foot-­‐‑square area, provided that the surface is level. If lit, the oil burns for 2 rounds and deals 5 fire damage to any creature that enters the area or ends its turn in the area. A creature can take this damage only once per turn."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 1,
+			"units": "silver"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_paper_sheet",
+        "name": "Sheet of Paper",
+        "desc": [
+            ""
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "silver"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_parchment_sheet",
+        "name": "Sheet of Parchment",
+        "desc": [
+            ""
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 1,
+			"units": "silver"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_perfume_vial",
+        "name": "Perfume (Vial)",
+        "desc": [
+            ""
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_pick_miners",
+        "name": "Miner's Pick",
+        "desc": [
+            "An iron pick, used for digging minerals from the earth."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 10,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_piton",
+        "name": "Piton",
+        "desc": [
+            ""
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "copper"
+		},
+        "weight": {
+			"weight_num": 0.25,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_poison_basic_vial",
+        "name": "Basic Poison (Vial)",
+        "desc": [
+            "You can use the poison in this vial to coat one slashing or piercing weapon or up to three pieces of ammunition. Applying the poison takes an action. A creature hit by the poisoned weapon or ammunition must make a DC 10 Constitution saving throw or take 1d4 poison damage. Once applied, the poison retains potency for 1 minute before drying."
+        ],
+        "gear_type": "poison",
+        "count": 1,
+        "price": {
+			"price-num": 100,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_pole_10_foot",
+        "name": "10-foot pole",
+        "desc": [
+            ""
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "copper"
+		},
+        "weight": {
+			"weight_num": 7,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_pot_iron",
+        "name": "Iron Pot",
+        "desc": [
+            "An iron pot. Can hold one gallon of liquid."
+        ],
+        "gear_type": "container",
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 10,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_potion_healing",
+        "name": "Potion of Healing",
+        "desc": [
+            "A character who drinks the magical red fluid in this vial regains 2d4 + 2 hit points. Drinking or administering a potion takes an action."
+        ],
+        "gear_type": "potion",
+        "count": 1,
+        "price": {
+			"price-num": 50,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 0.5,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_pouch",
+        "name": "Pouch",
+        "desc": [
+            "A cloth or leather pouch can hold up to 20 sling bullets or 50 blowgun needles, among other things. A compartmentalized pouch for holding spell components is called a component pouch."
+        ],
+        "gear_type": "container",
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "silver"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_quiver",
+        "name": "Quiver",
+        "desc": [
+            "A quiver can hold up to 20 arrows."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 1,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_ram_portable",
+        "name": "Portable Ram",
+        "desc": [
+            "You can use a portable ram to break down doors. When doing so, you gain a +4 bonus on the Strength check. One other character can help you use the ram, giving you advantage on this check."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 4,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 35,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_rations_one_day",
+        "name": "One-day Rations",
+        "desc": [
+            "Rations consist of dry foods suitable for extended travel, including jerky, dried fruit, hardtack, and nuts."
+        ],
+        "gear_type": "rations",
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "silver"
+		},
+        "weight": {
+			"weight_num": 2,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_robes",
+        "name": "Robes",
+        "desc": [
+            ""
+        ],
+        "gear_type": "clothing",
+        "count": 1,
+        "price": {
+			"price-num": 1,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 4,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_rope_hempen",
+        "name": "Hempen Rope (feet)",
+        "desc": [
+            "Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check."
+        ],
+        "gear_type": "rope",
+        "count": 50,
+        "price": {
+			"price-num": 1,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 10,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_rope_silk",
+        "name": "Silk Rope (50 feet)",
+        "desc": [
+            "Rope, whether made of hemp or silk, has 2 hit points and can be burst with a DC 17 Strength check."
+        ],
+        "gear_type": "rope",
+        "count": 1,
+        "price": {
+			"price-num": 10,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 5,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_sack",
+        "name": "Sack",
+        "desc": [
+            "A woven sack. Holds approximately 1 cubic foot of items (up to 30 pounds of gear)."
+        ],
+        "gear_type": "container",
+        "count": 1,
+        "price": {
+			"price-num": 1,
+			"units": "copper"
+		},
+        "weight": {
+			"weight_num": 0.5,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_scale_merchants",
+        "name": "Merchant's Scale",
+        "desc": [
+            "A scale includes a small balance, pans, and a suitable assortment of weights up to 2 pounds. With it, you can measure the exact weight of small objects, such as raw precious metals or trade goods, to help determine their worth."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 3,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_sealing_wax",
+        "name": "Sealing Wax",
+        "desc": [
+            ""
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "silver"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_shovel",
+        "name": "Shovel",
+        "desc": [
+            ""
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 5,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_signal_whistle",
+        "name": "Signal Whistle",
+        "desc": [
+            ""
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "copper"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_signet_ring",
+        "name": "Signet Ring",
+        "desc": [
+            ""
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_soap",
+        "name": "Soap",
+        "desc": [
+            ""
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "copper"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_spellbook",
+        "name": "Spellbook",
+        "desc": [
+            "Essential for wizards, a spellbook is a leather-­bound tome with 100 blank vellum pages suitable for recording spells."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 50,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 3,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_spikes_iron",
+        "name": "Iron Spikes",
+        "desc": [
+            ""
+        ],
+        "gear_type": null,
+        "count": 10,
+        "price": {
+			"price-num": 1,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 5,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_spyglass",
+        "name": "Spyglass",
+        "desc": [
+            "Objects viewed through a spyglass are magnified to twice their size."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 1000,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_string",
+        "name": "String",
+        "desc": [
+            "A ball of string, sold by the foot."
+        ],
+        "gear_type": null,
+        "count": 10,
+        "price": {
+			"price-num": 2,
+			"units": "silver"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_tent_two_person",
+        "name": "Two-person Tent",
+        "desc": [
+            "A simple and portable canvas shelter, this tent sleeps two."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 20,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_tinderbox",
+        "name": "Tinderbox",
+        "desc": [
+            "This small container holds flint, fire steel, and tinder (usually dry cloth soaked in light oil) used to kindle a fire. Using it to light a torch—or anything else with abundant, exposed fuel—takes an action. Lighting any other fire takes 1 minute."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 5,
+			"units": "silver"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_torch",
+        "name": "Torch",
+        "desc": [
+            "A torch burns for 1 hour, providing bright light in a 20-­‐‑foot radius and dim light for an additional 20 feet. If you make a melee attack with a burning torch and hit, it deals 1 fire damage."
+        ],
+        "gear_type": "light_source",
+        "count": 1,
+        "price": {
+			"price-num": 1,
+			"units": "copper"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_vial",
+        "name": "Vial",
+        "desc": [
+            "A small glass vial. Holds approximately 4 ounches of fluid."
+        ],
+        "gear_type": "container",
+        "count": 1,
+        "price": {
+			"price-num": 1,
+			"units": "gold"
+		},
+        "weight": {
+			"weight_num": 0,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_waterskin",
+        "name": "Waterskin",
+        "desc": [
+            "A medium waterskin. Holds approximately 4 pints (64 fluid ounces) of liquid."
+        ],
+        "gear_type": "container",
+        "count": 1,
+        "price": {
+			"price-num": 2,
+			"units": "silver"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    },
+    {
+        "index": "gear_whetstone",
+        "name": "Whetstone",
+        "desc": [
+            "A textured stone used for sharpening blades or other metal tools."
+        ],
+        "gear_type": null,
+        "count": 1,
+        "price": {
+			"price-num": 1,
+			"units": "copper"
+		},
+        "weight": {
+			"weight_num": 1,
+			"units": "pounds"
+		}
+    }
+]
